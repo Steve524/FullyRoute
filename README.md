@@ -1,0 +1,2 @@
+A platform aimed to help CSUF students, faculty & visitors navigate and familiarize themselves with campuses infastructure like buildings, rooms and points of interst.
+This platform will be a website that guides users to a desired location within the campuses infrastructure from a given location within the campus. Furthermore, It will provide live instructions to get you to your desired location. Users will have the ability to enter a Building Name or Room Number and also point of interest locations like "Elephant Statue".
