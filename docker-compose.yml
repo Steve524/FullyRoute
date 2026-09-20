@@ -1,0 +1,13 @@
+services:
+    db:
+        image:  postgis/postgis:17-3.5
+        environment:
+            POSTGRES_PASSWORD: devfullyroute
+            POSTGRES_DB: fullyroutedb
+        ports:
+            - "5433:5432"
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+            - ./database:/database
+volumes:
+    pgdata:
