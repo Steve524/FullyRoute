@@ -1,0 +1,11 @@
+{
+  "title": "FullyRoute MVP v1",
+  "description": "Navigate the CSUF campus effortlessly with an interactive map featuring searchable start and destination pickers for buildings and landmarks.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

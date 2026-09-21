@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "id": "n-tsu",
+      "position": {
+        "pixel": {
+          "x": 1655,
+          "y": 4418
+        }
+      },
+      "buildingId": "bldg-tsu",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-b",
+      "position": {
+        "pixel": {
+          "x": 1967,
+          "y": 4466
+        }
+      },
+      "buildingId": "bldg-b",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-commons",
+      "position": {
+        "pixel": {
+          "x": 2306,
+          "y": 4418
+        }
+      },
+      "buildingId": "lm-commons",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-pl",
+      "position": {
+        "pixel": {
+          "x": 2509,
+          "y": 4527
+        }
+      },
+      "buildingId": "bldg-pl",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-cpac",
+      "position": {
+        "pixel": {
+          "x": 2091,
+          "y": 4837
+        }
+      },
+      "buildingId": "bldg-cpac",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-quad",
+      "position": {
+        "pixel": {
+          "x": 2658,
+          "y": 5073
+        }
+      },
+      "buildingId": "lm-quad",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-h",
+      "position": {
+        "pixel": {
+          "x": 3036,
+          "y": 5044
+        }
+      },
+      "buildingId": "bldg-h",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-mh",
+      "position": {
+        "pixel": {
+          "x": 2549,
+          "y": 5338
+        }
+      },
+      "buildingId": "bldg-mh",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-dbh",
+      "position": {
+        "pixel": {
+          "x": 2295,
+          "y": 5637
+        }
+      },
+      "buildingId": "bldg-dbh",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-ec",
+      "position": {
+        "pixel": {
+          "x": 3055,
+          "y": 4727
+        }
+      },
+      "buildingId": "bldg-ec",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-ecs",
+      "position": {
+        "pixel": {
+          "x": 3160,
+          "y": 4255
+        }
+      },
+      "buildingId": "lm-ecs-lawn",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-e",
+      "position": {
+        "pixel": {
+          "x": 3600,
+          "y": 4218
+        }
+      },
+      "buildingId": "bldg-e",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-cs",
+      "position": {
+        "pixel": {
+          "x": 3844,
+          "y": 4218
+        }
+      },
+      "buildingId": "bldg-cs",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "n-khs",
+      "position": {
+        "pixel": {
+          "x": 2182,
+          "y": 4036
+        }
+      },
+      "buildingId": "bldg-khs",
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-tsu-b",
+      "from": "n-tsu",
+      "to": "n-b",
+      "weightM": 60,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-b-commons",
+      "from": "n-b",
+      "to": "n-commons",
+      "weightM": 65,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-commons-pl",
+      "from": "n-commons",
+      "to": "n-pl",
+      "weightM": 45,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-commons-cpac",
+      "from": "n-commons",
+      "to": "n-cpac",
+      "weightM": 90,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-commons-khs",
+      "from": "n-commons",
+      "to": "n-khs",
+      "weightM": 75,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-cpac-quad",
+      "from": "n-cpac",
+      "to": "n-quad",
+      "weightM": 120,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-pl-quad",
+      "from": "n-pl",
+      "to": "n-quad",
+      "weightM": 110,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-quad-h",
+      "from": "n-quad",
+      "to": "n-h",
+      "weightM": 75,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-quad-mh",
+      "from": "n-quad",
+      "to": "n-mh",
+      "weightM": 55,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-mh-dbh",
+      "from": "n-mh",
+      "to": "n-dbh",
+      "weightM": 75,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-pl-ec",
+      "from": "n-pl",
+      "to": "n-ec",
+      "weightM": 110,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-ec-h",
+      "from": "n-ec",
+      "to": "n-h",
+      "weightM": 60,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-ec-ecs",
+      "from": "n-ec",
+      "to": "n-ecs",
+      "weightM": 95,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-ecs-e",
+      "from": "n-ecs",
+      "to": "n-e",
+      "weightM": 85,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    },
+    {
+      "id": "edge-e-cs",
+      "from": "n-e",
+      "to": "n-cs",
+      "weightM": 45,
+      "accessible": true,
+      "provenance": {
+        "source": "manual",
+        "sourceRef": "hand-placed over campus map (illustrative)",
+        "verified": false
+      }
+    }
+  ]
+}

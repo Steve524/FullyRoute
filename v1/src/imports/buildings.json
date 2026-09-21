@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "bldg-ad",
+    "code": "AD",
+    "name": "Admissions Office",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 3055,
+        "y": 5895
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-af",
+    "code": "AF",
+    "name": "Anderson Family Field",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2829,
+        "y": 1938
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-asc",
+    "code": "ASC",
+    "name": "Auxiliary Services Corporation",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 262,
+        "y": 4546
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-b",
+    "code": "B",
+    "name": "Bookstore / Titan Shops",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 1967,
+        "y": 4258
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cc",
+    "code": "CC",
+    "name": "Children's Center",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 1193,
+        "y": 2098
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cj",
+    "code": "CJ",
+    "name": "Carl's Jr.",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 3313,
+        "y": 5644
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cp",
+    "code": "CP",
+    "name": "College Park",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3382,
+        "y": 6629
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cpac",
+    "code": "CPAC",
+    "name": "Clayes Performing Arts Center",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 1989,
+        "y": 5037
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cs",
+    "code": "CS",
+    "name": "Computer Science",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3844,
+        "y": 4055
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-cy",
+    "code": "CY",
+    "name": "Corporation Yard",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 862,
+        "y": 2898
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-dbh",
+    "code": "DBH",
+    "name": "Dan Black Hall",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2295,
+        "y": 5767
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-e",
+    "code": "E",
+    "name": "Engineering",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3600,
+        "y": 4055
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ec",
+    "code": "EC",
+    "name": "Education-Classroom",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3055,
+        "y": 4593
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ep",
+    "code": "EP",
+    "name": "East Playfield",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2731,
+        "y": 3029
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-gah",
+    "code": "GAH",
+    "name": "Golleher Alumni House",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 825,
+        "y": 4040
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-gc",
+    "code": "GC",
+    "name": "Greenhouse Complex",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 1873,
+        "y": 5506
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-gf",
+    "code": "GF",
+    "name": "Goodwin Field",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2633,
+        "y": 1444
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-gh",
+    "code": "GH",
+    "name": "Gordon Hall",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3153,
+        "y": 5473
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-h",
+    "code": "H",
+    "name": "Humanities-Social Sciences",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3189,
+        "y": 5044
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-hre",
+    "code": "HRE",
+    "name": "Housing & Residential Engagement",
+    "kind": "housing",
+    "position": {
+      "pixel": {
+        "x": 4298,
+        "y": 3313
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-if",
+    "code": "IF",
+    "name": "Intramural Field",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2338,
+        "y": 3029
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-khs",
+    "code": "KHS",
+    "name": "Kinesiology & Health Science",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2276,
+        "y": 3826
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-lh",
+    "code": "LH",
+    "name": "Langsdorf Hall",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2935,
+        "y": 5818
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-mc",
+    "code": "MC",
+    "name": "Modular Complex",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2473,
+        "y": 6047
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-mh",
+    "code": "MH",
+    "name": "McCarthy Hall",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2549,
+        "y": 5466
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ms",
+    "code": "MS",
+    "name": "Military Science",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3182,
+        "y": 2993
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-p",
+    "code": "P",
+    "name": "Parking & Transportation Office",
+    "kind": "service",
+    "position": {},
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-pl",
+    "code": "PL",
+    "name": "Pollak Library",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 2655,
+        "y": 4502
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-rg",
+    "code": "RG",
+    "name": "Ruby Gerontology Center",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3560,
+        "y": 3407
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-rh",
+    "code": "RH",
+    "name": "Resident Housing",
+    "kind": "housing",
+    "position": {
+      "pixel": {
+        "x": 4087,
+        "y": 3266
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-sgmh",
+    "code": "SGMH",
+    "name": "Mihaylo Hall",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 3331,
+        "y": 6033
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-shcc",
+    "code": "SHCC",
+    "name": "Student Health & Counseling Center",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 3146,
+        "y": 3691
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-src",
+    "code": "SRC",
+    "name": "Student Recreation Center",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 1560,
+        "y": 3596
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-t",
+    "code": "T",
+    "name": "Titan House",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 3178,
+        "y": 3226
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-tdh",
+    "code": "TDH",
+    "name": "Titan Dining Hall",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 4091,
+        "y": 3586
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-tg",
+    "code": "TG",
+    "name": "Titan Gymnasium",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2375,
+        "y": 3611
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-th",
+    "code": "TH",
+    "name": "Titan Hall",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 513,
+        "y": 4786
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ts",
+    "code": "TS",
+    "name": "Titan Stadium",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 1920,
+        "y": 1622
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-tsc",
+    "code": "TSC",
+    "name": "Titan Sports Complex",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2498,
+        "y": 2127
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-tsf",
+    "code": "TSF",
+    "name": "Titan Softball Field",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 3004,
+        "y": 2407
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-tsu",
+    "code": "TSU",
+    "name": "Titan Student Union",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 1182,
+        "y": 4320
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ttc",
+    "code": "TTC",
+    "name": "Titan Tennis Courts",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 1913,
+        "y": 3015
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-ttf",
+    "code": "TTF",
+    "name": "Titan Track & Field",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2295,
+        "y": 2469
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-up",
+    "code": "UP",
+    "name": "University Police",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 840,
+        "y": 3633
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-va",
+    "code": "VA",
+    "name": "Visual Arts Complex",
+    "kind": "academic",
+    "position": {
+      "pixel": {
+        "x": 964,
+        "y": 4884
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "bldg-olli",
+    "code": "OLLI",
+    "name": "OLLI (Osher Lifelong Learning Institute)",
+    "kind": "service",
+    "position": {
+      "pixel": {
+        "x": 3709,
+        "y": 3236
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-quad",
+    "code": null,
+    "name": "Quad",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 2658,
+        "y": 5066
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-commons",
+    "code": null,
+    "name": "Commons",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 2306,
+        "y": 4436
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-titan-walk",
+    "code": null,
+    "name": "Titan Walk",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 1982,
+        "y": 4509
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-becker-amphitheater",
+    "code": null,
+    "name": "Becker Amphitheater",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 1891,
+        "y": 4647
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-ecs-lawn",
+    "code": null,
+    "name": "ECS Lawn",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 3160,
+        "y": 4109
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-tuffy-lawn",
+    "code": null,
+    "name": "Tuffy Lawn",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 1902,
+        "y": 3782
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-arboretum",
+    "code": null,
+    "name": "Arboretum and Botanical Garden",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 3746,
+        "y": 1582
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-heritage-house",
+    "code": null,
+    "name": "Heritage House",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 3262,
+        "y": 1382
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-fullerton-marriott",
+    "code": null,
+    "name": "Fullerton Marriott",
+    "kind": "landmark",
+    "position": {
+      "pixel": {
+        "x": 4080,
+        "y": 5935
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "lm-titan-aquatics-center",
+    "code": null,
+    "name": "Titan Aquatics Center",
+    "kind": "athletics",
+    "position": {
+      "pixel": {
+        "x": 2844,
+        "y": 3647
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-scps",
+    "code": "SCPS",
+    "name": "State College Parking Structure",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1204,
+        "y": 3593
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-enps",
+    "code": "ENPS",
+    "name": "Eastside North Parking Structure",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 4255,
+        "y": 4749
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-esps",
+    "code": "ESPS",
+    "name": "Eastside South Parking Structure",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 4251,
+        "y": 5124
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-nps",
+    "code": "NPS",
+    "name": "Nutwood Parking Structure",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1185,
+        "y": 5775
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-s10",
+    "code": "S10",
+    "name": "Lot S10",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 2138,
+        "y": 771
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-s8",
+    "code": "S8",
+    "name": "Lot S8",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1073,
+        "y": 1353
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e7",
+    "code": "E7",
+    "name": "Lot E7",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1007,
+        "y": 2327
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e6",
+    "code": "E6",
+    "name": "Lot E6",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 3422,
+        "y": 3127
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e1-north",
+    "code": "E1",
+    "name": "Lot E1 (north)",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 3691,
+        "y": 4484
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e1-south",
+    "code": "E1",
+    "name": "Lot E1 (south)",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 3680,
+        "y": 5066
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e2",
+    "code": "E2",
+    "name": "Lot E2",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1778,
+        "y": 6066
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e3",
+    "code": "E3",
+    "name": "Lot E3",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 1029,
+        "y": 6171
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e-th",
+    "code": "E-TH",
+    "name": "Lot E-TH",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 353,
+        "y": 5066
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-r1",
+    "code": "R1",
+    "name": "Lot R1 (resident)",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 4251,
+        "y": 4313
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-r2",
+    "code": "R2",
+    "name": "Lot R2 (resident)",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 4462,
+        "y": 2953
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-r3",
+    "code": "R3",
+    "name": "Lot R3 (resident)",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 4462,
+        "y": 2146
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-e-cp",
+    "code": "E-CP",
+    "name": "Lot E-CP",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 3473,
+        "y": 6877
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  },
+  {
+    "id": "park-s-cp",
+    "code": "S-CP",
+    "name": "Lot S-CP",
+    "kind": "parking",
+    "position": {
+      "pixel": {
+        "x": 3473,
+        "y": 7306
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "CSUF campus map, rev 2607",
+      "verified": false
+    }
+  }
+]

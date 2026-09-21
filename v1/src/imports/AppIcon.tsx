@@ -1,0 +1,130 @@
+interface AppIconProps {
+  className?: string
+  title?: string
+}
+
+/**
+ * FullyRoute app icon — an original, stylized African bull elephant mascot
+ * (Tuffy) standing upright and rugged: huge fan ears, long ivory tusks, a
+ * weathered wrinkled trunk, a hiking pack, holding a water bottle and an orange.
+ * Brand palette: titan orange on a navy squircle. Single self-contained SVG.
+ */
+export default function AppIcon({ className, title = 'FullyRoute' }: AppIconProps) {
+  return (
+    <svg
+      viewBox="0 0 512 512"
+      role="img"
+      aria-label={title}
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="fr-tile" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#12294b" />
+          <stop offset="1" stopColor="#0a172c" />
+        </linearGradient>
+      </defs>
+
+      {/* Tile */}
+      <rect x="0" y="0" width="512" height="512" rx="114" fill="url(#fr-tile)" />
+
+      {/* Hillside + trail (the hiking setting) */}
+      <path d="M0 406 Q128 368 256 388 T512 356 L512 512 L0 512 Z" fill="#1d4a78" />
+      <path
+        d="M40 476 C160 440 220 424 310 426 C392 428 452 414 500 392"
+        fill="none"
+        stroke="#f0d9a8"
+        strokeWidth="22"
+        strokeLinecap="round"
+        opacity="0.9"
+      />
+
+      {/* Hiking pack behind the torso */}
+      <rect x="188" y="214" width="136" height="118" rx="40" fill="#e7dcc6" />
+      <rect x="188" y="214" width="136" height="26" rx="40" fill="#d9ccb0" />
+      <path d="M244 216 Q256 202 268 216" fill="none" stroke="#ff7a1a" strokeWidth="7" strokeLinecap="round" />
+
+      {/* Legs mid-stride — back leg shaded, big feet with toenails */}
+      <rect x="262" y="336" width="38" height="94" rx="18" fill="#d95f0e" />
+      <ellipse cx="288" cy="432" rx="31" ry="15" fill="#d95f0e" />
+      <circle cx="276" cy="436" r="3.5" fill="#f3ead2" />
+      <circle cx="288" cy="438" r="3.5" fill="#f3ead2" />
+      <circle cx="300" cy="436" r="3.5" fill="#f3ead2" />
+      <rect x="210" y="340" width="40" height="94" rx="19" fill="#ff7a1a" />
+      <ellipse cx="230" cy="436" rx="33" ry="16" fill="#ff7a1a" />
+      <circle cx="216" cy="438" r="3.8" fill="#f3ead2" />
+      <circle cx="230" cy="440" r="3.8" fill="#f3ead2" />
+      <circle cx="244" cy="438" r="3.8" fill="#f3ead2" />
+
+      {/* Torso with hide shading */}
+      <rect x="190" y="220" width="128" height="142" rx="46" fill="#ff7a1a" />
+      <path d="M206 250 Q254 236 302 250" fill="none" stroke="#e86f14" strokeWidth="7" strokeLinecap="round" opacity="0.7" />
+      <path d="M212 300 Q254 292 296 300" fill="none" stroke="#e86f14" strokeWidth="6" strokeLinecap="round" opacity="0.55" />
+
+      {/* Backpack straps */}
+      <path d="M224 234 C222 282 224 314 230 344" fill="none" stroke="#10233f" strokeWidth="10" strokeLinecap="round" />
+      <path d="M288 234 C290 282 288 314 282 344" fill="none" stroke="#10233f" strokeWidth="10" strokeLinecap="round" />
+
+      {/* Left arm holding a water bottle */}
+      <path d="M212 250 C188 262 172 282 166 306" fill="none" stroke="#ff7a1a" strokeWidth="32" strokeLinecap="round" />
+      <circle cx="164" cy="314" r="18" fill="#ff7a1a" />
+      <rect x="147" y="298" width="32" height="58" rx="12" fill="#d5ebff" />
+      <rect x="155" y="284" width="16" height="16" rx="4" fill="#10233f" />
+      <rect x="147" y="320" width="32" height="14" fill="#ff7a1a" />
+      <rect x="156" y="326" width="14" height="11" rx="5" fill="#ff7a1a" />
+
+      {/* Right arm holding an orange */}
+      <path d="M296 250 C320 262 336 282 342 306" fill="none" stroke="#ff7a1a" strokeWidth="32" strokeLinecap="round" />
+      <circle cx="346" cy="314" r="18" fill="#ff7a1a" />
+      <circle cx="350" cy="300" r="24" fill="#ffa62b" stroke="#e07a00" strokeWidth="3" />
+      <ellipse cx="361" cy="279" rx="13" ry="6" fill="#3fa34d" transform="rotate(-30 361 279)" />
+      <rect x="339" y="316" width="17" height="11" rx="5" fill="#ff7a1a" />
+
+      {/* Huge African fan ears */}
+      <ellipse cx="150" cy="150" rx="66" ry="90" fill="#ff7a1a" transform="rotate(-14 150 150)" />
+      <ellipse cx="166" cy="156" rx="40" ry="60" fill="#d95f0e" transform="rotate(-14 166 156)" />
+      <path d="M150 120 Q140 160 158 200" fill="none" stroke="#c25409" strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+      <ellipse cx="362" cy="150" rx="66" ry="90" fill="#ff7a1a" transform="rotate(14 362 150)" />
+      <ellipse cx="346" cy="156" rx="40" ry="60" fill="#d95f0e" transform="rotate(14 346 156)" />
+      <path d="M362 120 Q372 160 354 200" fill="none" stroke="#c25409" strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+
+      {/* Head + single-dome forehead */}
+      <ellipse cx="256" cy="140" rx="90" ry="80" fill="#ff7a1a" />
+      <ellipse cx="256" cy="98" rx="60" ry="46" fill="#ff7a1a" />
+      <path d="M256 66 Q250 110 256 150" fill="none" stroke="#e86f14" strokeWidth="5" strokeLinecap="round" opacity="0.5" />
+
+      {/* Weathered trunk with wrinkle rings and two-finger tip */}
+      <path
+        d="M242 166 C238 214 242 262 248 300 C250 320 246 338 254 350 C260 358 272 358 278 350 C286 338 282 320 284 300 C290 258 294 214 290 166 Z"
+        fill="#ff7a1a"
+      />
+      <path d="M244 210 Q256 217 288 210" fill="none" stroke="#d95f0e" strokeWidth="5" strokeLinecap="round" />
+      <path d="M246 242 Q257 249 286 242" fill="none" stroke="#d95f0e" strokeWidth="5" strokeLinecap="round" />
+      <path d="M248 274 Q258 281 284 274" fill="none" stroke="#d95f0e" strokeWidth="5" strokeLinecap="round" />
+      <path d="M250 304 Q259 311 282 304" fill="none" stroke="#d95f0e" strokeWidth="5" strokeLinecap="round" />
+      <path d="M258 352 L258 344 M274 351 L274 343" stroke="#c25409" strokeWidth="4" strokeLinecap="round" />
+
+      {/* Long ivory tusks framing the trunk */}
+      <path
+        d="M238 202 C214 232 196 276 196 320 C207 320 220 314 228 302 C232 282 226 244 252 214 Z"
+        fill="#f3ead2"
+        stroke="#cabf9a"
+        strokeWidth="2"
+      />
+      <path
+        d="M274 202 C298 232 316 276 316 320 C305 320 292 314 284 302 C280 282 286 244 260 214 Z"
+        fill="#f3ead2"
+        stroke="#cabf9a"
+        strokeWidth="2"
+      />
+
+      {/* Heavy brow + stern eyes */}
+      <path d="M206 138 Q226 126 246 140" fill="none" stroke="#d95f0e" strokeWidth="9" strokeLinecap="round" />
+      <path d="M266 140 Q286 126 306 138" fill="none" stroke="#d95f0e" strokeWidth="9" strokeLinecap="round" />
+      <circle cx="224" cy="154" r="9.5" fill="#10233f" />
+      <circle cx="227" cy="151" r="3" fill="#ffffff" />
+      <circle cx="288" cy="154" r="9.5" fill="#10233f" />
+      <circle cx="291" cy="151" r="3" fill="#ffffff" />
+    </svg>
+  )
+}
