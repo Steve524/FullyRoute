@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ent-tsu-main",
+    "buildingId": "bldg-tsu",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-tsu",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1655,
+        "y": 4418
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-b-main",
+    "buildingId": "bldg-b",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-b",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1967,
+        "y": 4466
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-pl-main",
+    "buildingId": "bldg-pl",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-pl",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2509,
+        "y": 4527
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cpac-main",
+    "buildingId": "bldg-cpac",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cpac",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2091,
+        "y": 4837
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-h-main",
+    "buildingId": "bldg-h",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-h",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3036,
+        "y": 5044
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mh-main",
+    "buildingId": "bldg-mh",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-mh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2549,
+        "y": 5338
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-dbh-main",
+    "buildingId": "bldg-dbh",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-dbh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2295,
+        "y": 5637
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ec-main",
+    "buildingId": "bldg-ec",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-ec",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3055,
+        "y": 4727
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-e-main",
+    "buildingId": "bldg-e",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-e",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3600,
+        "y": 4218
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cs-main",
+    "buildingId": "bldg-cs",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3844,
+        "y": 4218
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-khs-main",
+    "buildingId": "bldg-khs",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-khs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2182,
+        "y": 4036
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  }
+]
