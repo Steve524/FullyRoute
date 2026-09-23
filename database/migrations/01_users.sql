@@ -16,5 +16,8 @@ create table if not exists users (
 create table if not exists user_classes(
 	id bigint generated always as identity primary key,
 	user_id	uuid not null references users(id) on delete cascade,
-	created_at timestamp default current_timestamp
+	created_at timestamp default current_timestamp,
+	-- classes will be put here
+	student_classes varchar(50),
+	class_time time not null
 );
