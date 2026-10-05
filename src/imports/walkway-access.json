@@ -1,0 +1,4 @@
+{
+  "note": "Step-free barriers on the walkway network. `line` is the index of the polyline in walkways.json; a barrier blocks that whole polyline for step-free routes. type: steps | steep | closed | narrow.",
+  "barriers": []
+}
