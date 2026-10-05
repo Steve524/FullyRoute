@@ -1,0 +1,8 @@
+{
+  "image": "CSUF-CAMPUS-MAP.png",
+  "width": 6182,
+  "height": 8000,
+  "revision": "2607",
+  "note": "All pixel coordinates are in this image's pixel space. Positions are estimates read off the map; re-trace in Figma before relying on them. Edge weightM values are rough meters (~0.7 m per 1700px-wide reference px), rounded to 5 m.",
+  "north": "up"
+}
