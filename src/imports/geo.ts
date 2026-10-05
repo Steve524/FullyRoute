@@ -27,6 +27,42 @@ export function geoToPixel({ lat, lng }: LatLng): Pixel {
   }
 }
 
+/** Map pixel space -> decimal (lat, lng); exact inverse of geoToPixel. */
+export function pixelToGeo({ x, y }: Pixel): LatLng {
+  const det = CX[0] * CY[1] - CX[1] * CY[0]
+  const dx = x - CX[2]
+  const dy = y - CY[2]
+  return { lat: (CX[0] * dy - CY[0] * dx) / det, lng: (CY[1] * dx - CX[1] * dy) / det }
+}
+
+// Center of the campus map image (6182 x 8000 px).
+export const CAMPUS_CENTER: LatLng = pixelToGeo({ x: 3091, y: 4000 })
+
+// "Nearby" = within two miles of the campus center.
+export const NEARBY_RADIUS_M = 3219
+
+const EARTH_R = 6371008.8
+const rad = (d: number) => (d * Math.PI) / 180
+
+/** Great-circle distance in meters. */
+export function distanceM(a: LatLng, b: LatLng): number {
+  const h =
+    Math.sin(rad(b.lat - a.lat) / 2) ** 2 +
+    Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lng - a.lng) / 2) ** 2
+  return 2 * EARTH_R * Math.asin(Math.sqrt(h))
+}
+
+/** Initial compass bearing from a to b, degrees clockwise from north (0..360). */
+export function bearingDeg(a: LatLng, b: LatLng): number {
+  const y = Math.sin(rad(b.lng - a.lng)) * Math.cos(rad(b.lat))
+  const x =
+    Math.cos(rad(a.lat)) * Math.sin(rad(b.lat)) - Math.sin(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.cos(rad(b.lng - a.lng))
+  return ((Math.atan2(y, x) * 180) / Math.PI + 360) % 360
+}
+
+const COMPASS_8 = ['north', 'northeast', 'east', 'southeast', 'south', 'southwest', 'west', 'northwest']
+export const compassWord = (deg: number) => COMPASS_8[Math.round(deg / 45) % 8]
+
 /**
  * Parse a degrees-minutes-seconds coordinate into decimal (lat, lng).
  * Accepts the common Google Maps / GPS forms, e.g.

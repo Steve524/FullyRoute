@@ -247,6 +247,24 @@ export default function CampusMap({
     setOffset({ x: 0, y: 0 })
   }
 
+  const KEY_PAN = 60 // px per arrow press
+  const onKeyDown = (e: React.KeyboardEvent) => {
+    const pan: Record<string, [number, number]> = {
+      ArrowLeft: [KEY_PAN, 0],
+      ArrowRight: [-KEY_PAN, 0],
+      ArrowUp: [0, KEY_PAN],
+      ArrowDown: [0, -KEY_PAN],
+    }
+    if (pan[e.key]) {
+      const [dx, dy] = pan[e.key]
+      setOffset((o) => clamp({ x: o.x + dx, y: o.y + dy }, scale))
+    } else if (e.key === '+' || e.key === '=') zoomIn()
+    else if (e.key === '-' || e.key === '_') zoomTo(scale - 0.5)
+    else if (e.key === '0') resetView()
+    else return
+    e.preventDefault()
+  }
+
   // Touch pinch-to-zoom.
   useEffect(() => {
     const el = frameRef.current
@@ -340,8 +358,13 @@ export default function CampusMap({
     >
       <div
         ref={frameRef}
-        className="flex h-full w-full items-center justify-center cursor-grab touch-none select-none active:cursor-grabbing"
+        tabIndex={0}
+        role="region"
+        aria-label="Campus map"
+        aria-describedby="campus-map-keys"
+        className="flex h-full w-full items-center justify-center cursor-grab touch-none select-none outline-none active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-titan"
         onWheel={onWheel}
+        onKeyDown={onKeyDown}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
@@ -455,13 +478,32 @@ export default function CampusMap({
                         <title>{d.label}</title>
                       </circle>
                     )
+                  // Start is a circle, arrival a diamond, so they differ by more than color.
                   const c = d.state === 'start' ? '#10233f' : '#ff7a1a'
+                  const title = `${d.state === 'start' ? 'Start door' : 'Arrival door'} · ${d.label}`
                   return (
                     <g key={d.key}>
                       <circle cx={d.x} cy={d.y} r={46 * u} fill={c} opacity={0.18} />
-                      <circle cx={d.x} cy={d.y} r={24 * u} {...hit} fill={c} stroke="#fff" strokeWidth={8 * u}>
-                        <title>{d.label}</title>
-                      </circle>
+                      {d.state === 'start' ? (
+                        <circle cx={d.x} cy={d.y} r={24 * u} {...hit} fill={c} stroke="#fff" strokeWidth={8 * u}>
+                          <title>{title}</title>
+                        </circle>
+                      ) : (
+                        <rect
+                          x={d.x - 22 * u}
+                          y={d.y - 22 * u}
+                          width={44 * u}
+                          height={44 * u}
+                          rx={4 * u}
+                          transform={`rotate(45 ${d.x} ${d.y})`}
+                          {...hit}
+                          fill={c}
+                          stroke="#fff"
+                          strokeWidth={8 * u}
+                        >
+                          <title>{title}</title>
+                        </rect>
+                      )}
                     </g>
                   )
                 })}
@@ -538,6 +580,9 @@ export default function CampusMap({
       )}
 
       {/* Controls */}
+      <p id="campus-map-keys" className="sr-only">
+        Use the arrow keys to pan, plus and minus to zoom, and 0 to reset the view.
+      </p>
       <div className="absolute bottom-3 right-3 flex flex-col overflow-hidden rounded-xl border border-line bg-white/95 shadow-sm backdrop-blur">
         <button type="button" aria-label={routeBounds ? 'Zoom in on route' : 'Zoom in'} onClick={zoomIn} className="h-10 w-10 text-lg font-semibold text-ink transition hover:bg-ground">+</button>
         <div className="h-px bg-line" />

@@ -103,9 +103,11 @@ export default function InteriorMap({ interior, initialRoomId, arrivalEntranceId
     setFloorId(f.id)
   }
 
-  // Esc backs out of the plan photo first, then closes the viewer.
+  // Esc backs out of the plan photo first, then closes the viewer. Tab stays inside the dialog.
+  const dialogRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Tab') return trapTab(e, dialogRef.current)
       if (e.key !== 'Escape') return
       if (photoOpen) setPhotoOpen(false)
       else onClose()
@@ -113,6 +115,13 @@ export default function InteriorMap({ interior, initialRoomId, arrivalEntranceId
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [onClose, photoOpen])
+
+  // Focus the room search on open and hand focus back to the opener on close.
+  useEffect(() => {
+    const opener = document.activeElement as HTMLElement | null
+    dialogRef.current?.querySelector<HTMLElement>('[data-autofocus]')?.focus()
+    return () => opener?.focus()
+  }, [])
 
   // --- Leaflet ---------------------------------------------------------------
   const elRef = useRef<HTMLDivElement>(null)
@@ -267,6 +276,7 @@ export default function InteriorMap({ interior, initialRoomId, arrivalEntranceId
 
   return (
     <div
+      ref={dialogRef}
       className="fixed inset-0 z-50 flex items-stretch justify-center bg-ink/45 p-0 backdrop-blur-[2px] sm:p-4 lg:p-8"
       role="dialog"
       aria-modal="true"
@@ -377,12 +387,16 @@ export default function InteriorMap({ interior, initialRoomId, arrivalEntranceId
             </section>
           ) : selected ? (
             <p className="border-b border-line px-4 py-3 text-sm text-ink-soft">
-              No {stepFree ? 'step-free ' : ''}route to {selected.room.number} from the mapped entrances.
+              {stepFree && findIndoorRoute(interior, selected.room.id, { prefer })
+                ? `${selected.room.number} can only be reached by stairs or through doors not marked accessible on these plans.`
+                : `No ${stepFree ? 'step-free ' : ''}route to ${selected.room.number} from the mapped entrances.`}
             </p>
           ) : null}
 
           <div className="px-4 pt-3">
             <input
+              data-autofocus
+              aria-label="Search rooms"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search room number or type…"
@@ -513,6 +527,24 @@ export default function InteriorMap({ interior, initialRoomId, arrivalEntranceId
       </div>
     </div>
   )
+}
+
+// Wrap Tab / Shift+Tab around the dialog's visible focusable elements.
+function trapTab(e: KeyboardEvent, root: HTMLElement | null) {
+  if (!root) return
+  const items = [
+    ...root.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])',
+    ),
+  ].filter((el) => el.offsetParent !== null)
+  if (!items.length) return
+  const first = items[0]
+  const last = items[items.length - 1]
+  const active = document.activeElement
+  if (!root.contains(active) || (e.shiftKey ? active === first : active === last)) {
+    e.preventDefault()
+    ;(e.shiftKey ? last : first).focus()
+  }
 }
 
 const ELEVATOR_SVG =

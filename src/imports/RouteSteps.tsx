@@ -1,10 +1,18 @@
-import type { RouteResult } from './routing'
+import { useEffect, useState } from 'react'
+import type { RouteResult, StepFreeGap } from './routing'
 import { walkMinutes } from './routing'
+
+const GAP_LABEL: Record<StepFreeGap, string> = {
+  'start-door': 'the start entrance',
+  'end-door': 'the arrival entrance',
+  paths: 'the walkways',
+}
 
 interface RouteStepsProps {
   route: RouteResult
   startName: string
   destName: string
+  shareUrl: string
   onOpenInterior?: () => void // set when the destination has a floor plan
 }
 
@@ -22,13 +30,35 @@ export const fmtDistance = (m: number) => {
 }
 
 // Trip total: yards, rolling over to miles for long walks.
-const fmtTotal = (m: number) => {
+export const fmtTotal = (m: number) => {
   const feet = m * FEET_PER_METER
   if (feet >= 1584) return `${(feet / 5280).toFixed(1)} mi`
   return `${Math.round(feet / 3 / 10) * 10} yd`
 }
 
-export default function RouteSteps({ route, startName, destName, onOpenInterior }: RouteStepsProps) {
+export default function RouteSteps({ route, startName, destName, shareUrl, onOpenInterior }: RouteStepsProps) {
+  const [copy, setCopy] = useState<'idle' | 'copied' | 'failed'>('idle')
+
+  useEffect(() => {
+    setCopy('idle')
+  }, [shareUrl])
+
+  useEffect(() => {
+    if (copy !== 'copied') return
+    const t = setTimeout(() => setCopy('idle'), 2000)
+    return () => clearTimeout(t)
+  }, [copy])
+
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl)
+      setCopy('copied')
+    } catch {
+      // Clipboard can be blocked (e.g. in an iframe preview); show the link to copy by hand.
+      setCopy('failed')
+    }
+  }
+
   return (
     <div className="rounded-2xl border border-line bg-white p-4">
       <div className="flex items-baseline justify-between gap-3">
@@ -43,6 +73,29 @@ export default function RouteSteps({ route, startName, destName, onOpenInterior 
         <span className="font-mono text-xs text-ink-soft">
           {fmtTotal(route.totalMeters)} · ~{walkMinutes(route.totalMeters)} min
         </span>
+      </div>
+
+      <div className="mt-2">
+        <button
+          type="button"
+          onClick={copyLink}
+          className="rounded-md border border-line px-2.5 py-1 text-xs font-medium text-ink transition hover:border-navy/40 hover:bg-ground"
+        >
+          {copy === 'copied' ? 'Link copied' : 'Copy link'}
+        </button>
+        <span className="sr-only" aria-live="polite">
+          {copy === 'copied' ? 'Route link copied to clipboard' : ''}
+        </span>
+        {copy === 'failed' && (
+          <input
+            readOnly
+            value={shareUrl}
+            aria-label="Route link"
+            autoFocus
+            onFocus={(e) => e.currentTarget.select()}
+            className="mt-2 w-full rounded-md bg-ground px-2 py-1.5 font-mono text-[11px] text-ink outline-none focus-visible:ring-2 focus-visible:ring-navy/30"
+          />
+        )}
       </div>
 
       <ol className="mt-3 space-y-0">
@@ -102,7 +155,8 @@ export default function RouteSteps({ route, startName, destName, onOpenInterior 
 
       {route.stepFree && !route.stepFreeConfirmed && (
         <p className="mt-3 rounded-lg bg-navy/5 px-3 py-2 text-xs text-ink-soft">
-          Avoids every barrier on record, but these paths and entrances haven’t been surveyed for steps yet.
+          Avoids every barrier on record, but not yet checked for steps:{' '}
+          {(route.stepFreeUnchecked ?? ['paths']).map((g) => GAP_LABEL[g]).join(', ')}.
         </p>
       )}
 

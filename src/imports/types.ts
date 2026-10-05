@@ -24,7 +24,24 @@ export type BuildingKind =
   | "parking"
   | "poi"; // bus stop, dining, restroom, bike rack, charger…
 
-export type PoiType = "dining" | "restroom" | "transit" | "bike" | "ev" | "atm" | "other";
+export type PoiType =
+  | "dining"
+  | "restroom"
+  | "transit"
+  | "bike"
+  | "ev"
+  | "atm"
+  | "grocery"
+  | "pharmacy"
+  | "health"
+  | "bank"
+  | "fuel"
+  | "shopping"
+  | "library"
+  | "post"
+  | "park"
+  | "fitness"
+  | "other";
 
 export type Building = {
   id: string; // stable and unique, e.g. "bldg-cs". ALWAYS key by id.
@@ -129,6 +146,43 @@ export type RouteResult = {
   totalMeters: number;
   path: string[]; // ordered node ids
   unverified: boolean; // true if any node or edge on the path is unverified
+};
+
+export type TravelMode = "walk" | "drive";
+
+// GET /places?near=lat,lng&radiusM=3219&types=dining,grocery
+export type NearbyRequest = { near: LatLng; radiusM: number; poiTypes?: PoiType[] };
+
+// Off-campus trip between two GPS points.
+export type AreaRouteRequest = { from: LatLng; to: LatLng; mode: TravelMode; stepFree: boolean };
+
+// --- Nearby area (off campus) ------------------------------------------------
+// region.json: OpenStreetMap streets and paths around campus, imported by
+// scripts/import-osm.mjs. nearby.json holds the places as Building records
+// (kind "poi", geo position only, ids "near-<osm type><osm id>").
+export type RegionWay = {
+  n: number[]; // indexes into RegionData.nodes, in drawing order
+  hw: string; // OSM highway class ("residential", "footway"…), or "sidewalk" / "crossing" for those footways
+  name?: string;
+  along?: string; // unnamed sidewalk: the street it runs beside (inferred at import)
+  walk: boolean;
+  drive: boolean;
+  oneway?: 1 | -1; // driving direction relative to `n`; absent = both ways
+  steps?: boolean; // stairs, avoided when step-free
+  mps?: number; // driving speed in meters per second
+};
+
+export type RegionData = {
+  source: string;
+  license: string;
+  attribution: string;
+  fetchedAt: string; // ISO timestamp of the import
+  center: LatLng;
+  radiusM: number; // places are within this distance of `center`
+  roadRadiusM: number; // streets extend a bit farther so edge places stay reachable
+  campus: [number, number][]; // campus boundary ring, [lat, lng]
+  nodes: [number, number][]; // [lat, lng]
+  ways: RegionWay[];
 };
 
 // --- Interiors ---------------------------------------------------------------

@@ -13,6 +13,9 @@
   (Leaflet, Mapbox, Google Maps). The campus map is a static image.
 - One component per file, PascalCase names.
 - All data is local. Read from the files in /mock. Do not call any network API.
+  (scripts/import-osm.mjs downloads OpenStreetMap data at dev time only; the app
+  reads the saved region.json / nearby.json. The one runtime exception is Google's
+  sign-in script, loaded only when My classes shows the sign-in button.)
 
 ## Data (read these exact files)
 - /mock/types.ts — the shape of every record. Follow it exactly.
@@ -32,12 +35,22 @@ Rules for using the data:
 ## Scope
 - In scope: choose a start building, choose a destination, show the route on the
   campus map, show a step-by-step list, and share the route as a link.
-- Out of scope: accounts, login, PDF upload, schedule parsing, live location,
-  indoor routing, room-level search, and any real API calls.
+- In scope: nearby places within 2 miles of campus (nearby.json, from OpenStreetMap)
+  on a separate area map, with walking or driving directions from a campus place.
+  Always show "© OpenStreetMap contributors" with that data, and keep these places
+  out of the campus pickers and campus map.
+- In scope: My classes is unlocked by optional Google sign-in (Google Identity
+  Services, client id in VITE_GOOGLE_CLIENT_ID) or by uploading a schedule
+  (.pdf from Titan Online, .ics, or .csv) that is parsed in the browser.
+- Out of scope: server-side accounts, live location, indoor routing, room-level
+  search, and any other real API calls.
 - Never add screens, buttons, or features not named in the current prompt.
 
 ## Users and sharing
 - Guest access is the default. Core navigation must work with no account and no login UI.
+- Sign-in only labels the saved schedule on this device. The Google ID token is never
+  stored and its signature isn't checked in the browser, so it must not authorize
+  anything until the backend verifies it.
 - A shared route is a stateless URL carrying the start id, destination id, and the
   accessible flag (e.g. ?from=bldg-cs&to=bldg-h&accessible=1). It must contain no
   personal data. Opening such a URL restores that route.
@@ -65,6 +78,8 @@ Rules for using the data:
 - A schedule screen, if a prompt asks for one, reads /mock/schedule.json.
 - Show an editable review screen before "confirming" rows. Rows with `confirmed: false`
   or a null `buildingId` are flagged for review, not hidden. Never fabricate a location.
+- Uploaded schedules: every row starts `confirmed: false`; a building is pre-filled only
+  on a single clear code or name match. Saved in localStorage per account (or guest).
 
 ## Editing rules
 - Only change what the current prompt asks for. Do not refactor, restyle, or "improve"
