@@ -1,0 +1,175 @@
+{
+  "user": {
+    "id": "sample-user-1",
+    "displayName": "Sample Student",
+    "role": "guest_account"
+  },
+  "term": "Fall 2026",
+  "items": [
+    {
+      "id": "sched-1",
+      "courseLabel": "CPSC 362",
+      "courseTitle": "Software Engineering",
+      "section": "01",
+      "classNbr": "10001",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "09:00",
+      "endTime": "10:15",
+      "locationRaw": "EC 063 - Lecture Room",
+      "buildingCode": "EC",
+      "roomNumber": "063",
+      "roomDesc": "Lecture Room",
+      "buildingId": "bldg-ec",
+      "roomId": null,
+      "confidence": 0.98,
+      "confirmed": true
+    },
+    {
+      "id": "sched-2",
+      "courseLabel": "CPSC 483",
+      "courseTitle": "Intro to Machine Learning",
+      "section": "02",
+      "classNbr": "10002",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "10:30",
+      "endTime": "11:45",
+      "locationRaw": "LH 315 - Lecture Room",
+      "buildingCode": "LH",
+      "roomNumber": "315",
+      "roomDesc": "Lecture Room",
+      "buildingId": "bldg-lh",
+      "roomId": null,
+      "confidence": 0.98,
+      "confirmed": true
+    },
+    {
+      "id": "sched-3",
+      "courseLabel": "ENGL 301",
+      "courseTitle": "Advanced Composition",
+      "section": "05",
+      "classNbr": "10003",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "13:00",
+      "endTime": "14:15",
+      "locationRaw": "H 130 - Lecture Room",
+      "buildingCode": "H",
+      "roomNumber": "130",
+      "roomDesc": "Lecture Room",
+      "buildingId": "bldg-h",
+      "roomId": null,
+      "confidence": 0.95,
+      "confirmed": true
+    },
+    {
+      "id": "sched-4",
+      "courseLabel": "PHYS 225",
+      "courseTitle": "General Physics",
+      "section": "01",
+      "classNbr": "10004",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "09:30",
+      "endTime": "10:45",
+      "locationRaw": "MH 110 - Lecture Room",
+      "buildingCode": "MH",
+      "roomNumber": "110",
+      "roomDesc": "Lecture Room",
+      "buildingId": "bldg-mh",
+      "roomId": null,
+      "confidence": 0.97,
+      "confirmed": true
+    },
+    {
+      "id": "sched-5",
+      "courseLabel": "PHYS 225",
+      "courseTitle": "General Physics",
+      "section": "01L",
+      "classNbr": "10005",
+      "component": "Lab",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Fri"
+      ],
+      "startTime": "12:00",
+      "endTime": "14:45",
+      "locationRaw": "MH 452 - Laboratory",
+      "buildingCode": "MH",
+      "roomNumber": "452",
+      "roomDesc": "Laboratory",
+      "buildingId": "bldg-mh",
+      "roomId": null,
+      "confidence": 0.97,
+      "confirmed": true
+    },
+    {
+      "id": "sched-6",
+      "courseLabel": "CPSC 335",
+      "courseTitle": "Algorithm Engineering",
+      "section": "03",
+      "classNbr": "10006",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Mon"
+      ],
+      "startTime": "19:00",
+      "endTime": "21:45",
+      "locationRaw": "Online",
+      "buildingCode": null,
+      "roomNumber": null,
+      "roomDesc": null,
+      "buildingId": null,
+      "roomId": null,
+      "confidence": 0.9,
+      "confirmed": true
+    },
+    {
+      "id": "sched-7",
+      "courseLabel": "HIST 110",
+      "courseTitle": "World History",
+      "section": "07",
+      "classNbr": "10007",
+      "component": "Lecture",
+      "startDate": "2026-08-22",
+      "endDate": "2026-12-11",
+      "days": [
+        "Fri"
+      ],
+      "startTime": "09:00",
+      "endTime": "11:45",
+      "locationRaw": "ZZ 101 - Lecture Room",
+      "buildingCode": "ZZ",
+      "roomNumber": "101",
+      "roomDesc": "Lecture Room",
+      "buildingId": null,
+      "roomId": null,
+      "confidence": 0.4,
+      "confirmed": false
+    }
+  ]
+}

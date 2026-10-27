@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, monospace;
+
+  --color-ground: #f4f6f2;
+  --color-ink: #10233f;
+  --color-ink-soft: #566173;
+  --color-line: #dbe0d9;
+  --color-navy: #10233f;
+  --color-titan: #ff7a1a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-ground);
+  color: var(--color-ink);
+}
+
+/* hide scrollbars until scrolling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: #c3c9bf transparent;
+}
+
+/* Leaflet interior maps */
+.fr-interior.leaflet-container {
+  background: transparent;
+  font-family: var(--font-sans, Inter, sans-serif);
+}
+.fr-interior img { max-width: none; }
+.fr-room { cursor: pointer; }
+.fr-room-label span {
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap;
+  font-family: 'DM Mono', monospace; font-size: 10px; color: #566173; pointer-events: none;
+}
+.fr-room-label.is-selected span { color: #10233f; font-weight: 600; font-size: 12px; }
+.fr-room-label.is-small span { font-size: 8px; }
+.fr-interior[data-detail='lo'] .fr-room-label span { font-size: 8px; letter-spacing: -0.02em; }
+.fr-interior[data-detail='lo'] .fr-room-label.is-small span { font-size: 6.5px; }
+.fr-interior[data-detail='lo'] .fr-room-label.is-selected span { font-size: 10px; }
+.fr-core span {
+  display: grid; place-items: center; width: 22px; height: 22px; border-radius: 6px;
+  background: #10233f; color: #fff; box-shadow: 0 1px 3px rgb(16 35 63 / 0.3);
+}
+.fr-core span[data-type='stairs'] { background: #fff; color: #10233f; box-shadow: inset 0 0 0 1.5px #10233f; }
+.fr-transfer button {
+  position: absolute; transform: translate(-50%, -150%); white-space: nowrap;
+  background: #ff7a1a; color: #fff; font: 600 11px Inter, sans-serif;
+  padding: 4px 9px; border-radius: 999px; box-shadow: 0 2px 6px rgb(255 122 26 / 0.4); cursor: pointer;
+}
+.fr-tip { font: 500 11px Inter, sans-serif; color: #10233f; }

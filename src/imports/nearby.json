@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "near-n2639921789",
+    "code": null,
+    "name": "7 Leaves Cafe",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874791,
+        "lng": -117.890026
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921789",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w113063241",
+    "code": null,
+    "name": "7-Eleven",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.902868,
+        "lng": -117.90711
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/113063241",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1135281652",
+    "code": null,
+    "name": "7-Eleven",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.859531,
+        "lng": -117.882888
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1135281652",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w195234824",
+    "code": null,
+    "name": "7-Eleven",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.874492,
+        "lng": -117.904179
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/195234824",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1283378856",
+    "code": null,
+    "name": "76",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.899741,
+        "lng": -117.909478
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1283378856",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228749650",
+    "code": null,
+    "name": "76",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.870821,
+        "lng": -117.907292
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228749650",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n5949820078",
+    "code": null,
+    "name": "Aava Dental",
+    "kind": "poi",
+    "poiType": "health",
+    "position": {
+      "geo": {
+        "lat": 33.889532,
+        "lng": -117.870086
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/5949820078",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w185324465",
+    "code": null,
+    "name": "Acacia Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.883616,
+        "lng": -117.894689
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/185324465",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10289206410",
+    "code": null,
+    "name": "Afters Ice Cream",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873387,
+        "lng": -117.890064
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10289206410",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668083562",
+    "code": null,
+    "name": "Alberto's Mexican Food",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87447,
+        "lng": -117.903829
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668083562",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w191166150",
+    "code": null,
+    "name": "Albertsons",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.890054,
+        "lng": -117.872295
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/191166150",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1847715003",
+    "code": null,
+    "name": "ampm",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.910381,
+        "lng": -117.880544
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1847715003",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4047288897",
+    "code": null,
+    "name": "ampm",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.874404,
+        "lng": -117.879303
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4047288897",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w209299294",
+    "code": null,
+    "name": "ampm",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.887478,
+        "lng": -117.865545
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/209299294",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1393111968",
+    "code": null,
+    "name": "Arco",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.910542,
+        "lng": -117.880548
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1393111968",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4047288898",
+    "code": null,
+    "name": "Arco",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.874205,
+        "lng": -117.879337
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4047288898",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4790578023",
+    "code": null,
+    "name": "Arco",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.887693,
+        "lng": -117.865476
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4790578023",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1250733209",
+    "code": null,
+    "name": "AT&T",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.911207,
+        "lng": -117.880833
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1250733209",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2685928409",
+    "code": null,
+    "name": "AT&T",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.87439,
+        "lng": -117.890569
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2685928409",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10874901794",
+    "code": null,
+    "name": "Bank of America",
+    "kind": "poi",
+    "poiType": "bank",
+    "position": {
+      "geo": {
+        "lat": 33.887309,
+        "lng": -117.863743
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10874901794",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10874901793",
+    "code": null,
+    "name": "Baskin-Robbins",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.887299,
+        "lng": -117.865776
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10874901793",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11369627396",
+    "code": null,
+    "name": "BBQ Chicken",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87457,
+        "lng": -117.890575
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11369627396",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w660640792",
+    "code": null,
+    "name": "Best 4 Less 76",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.865997,
+        "lng": -117.880889
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/660640792",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13329560007",
+    "code": null,
+    "name": "Blue Scoop Creamery",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.909659,
+        "lng": -117.888782
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13329560007",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13329560008",
+    "code": null,
+    "name": "Blue Scoop Creamery",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.910976,
+        "lng": -117.889432
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13329560008",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13314614771",
+    "code": null,
+    "name": "Bodhi Leaf Coffee Traders",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.888289,
+        "lng": -117.865001
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13314614771",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w155676257",
+    "code": null,
+    "name": "Bradford Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.888885,
+        "lng": -117.864595
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/155676257",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n14106545385",
+    "code": null,
+    "name": "Bruster's Ice Cream",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.875717,
+        "lng": -117.889079
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/14106545385",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10289138206",
+    "code": null,
+    "name": "Bundoo Khan",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877807,
+        "lng": -117.881617
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10289138206",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421954",
+    "code": null,
+    "name": "Burger King",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87462,
+        "lng": -117.888915
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421954",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w144849644",
+    "code": null,
+    "name": "Byerrum Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.874541,
+        "lng": -117.907937
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/144849644",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1399431853",
+    "code": null,
+    "name": "Carl's Jr.",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.899102,
+        "lng": -117.910536
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1399431853",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1525293389",
+    "code": null,
+    "name": "Carl's Jr.",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.888202,
+        "lng": -117.868515
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1525293389",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668105676",
+    "code": null,
+    "name": "Casa Fresh Mexican Grill and Burgers",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.872107,
+        "lng": -117.907343
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668105676",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639921794",
+    "code": null,
+    "name": "CAVA",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873804,
+        "lng": -117.889359
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921794",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w144849682",
+    "code": null,
+    "name": "Chapman Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.869725,
+        "lng": -117.885495
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/144849682",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n5844983308",
+    "code": null,
+    "name": "ChargePoint",
+    "kind": "poi",
+    "poiType": "ev",
+    "position": {
+      "geo": {
+        "lat": 33.873746,
+        "lng": -117.90576
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/5844983308",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2934632969",
+    "code": null,
+    "name": "Chase",
+    "kind": "poi",
+    "poiType": "bank",
+    "position": {
+      "geo": {
+        "lat": 33.874412,
+        "lng": -117.885613
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2934632969",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1250733203",
+    "code": null,
+    "name": "Chick-fil-A",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.911203,
+        "lng": -117.880702
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1250733203",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11980224340",
+    "code": null,
+    "name": "Chipotle",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.88748,
+        "lng": -117.862875
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11980224340",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2285397185",
+    "code": null,
+    "name": "Chipotle",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874535,
+        "lng": -117.890017
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2285397185",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1092532124",
+    "code": null,
+    "name": "Circle K",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.910386,
+        "lng": -117.881441
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1092532124",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w804194022",
+    "code": null,
+    "name": "Circle K",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.899897,
+        "lng": -117.9096
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/804194022",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w120582578",
+    "code": null,
+    "name": "Coco's Bakery",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.91091,
+        "lng": -117.886993
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/120582578",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2294751069",
+    "code": null,
+    "name": "Cottage Dental",
+    "kind": "poi",
+    "poiType": "health",
+    "position": {
+      "geo": {
+        "lat": 33.874324,
+        "lng": -117.906175
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2294751069",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w118422110",
+    "code": null,
+    "name": "Craig Regional Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.90207,
+        "lng": -117.885093
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/118422110",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10874901790",
+    "code": null,
+    "name": "CVS Pharmacy",
+    "kind": "poi",
+    "poiType": "pharmacy",
+    "position": {
+      "geo": {
+        "lat": 33.886036,
+        "lng": -117.864092
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10874901790",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421964",
+    "code": null,
+    "name": "CVS Pharmacy",
+    "kind": "poi",
+    "poiType": "pharmacy",
+    "position": {
+      "geo": {
+        "lat": 33.873848,
+        "lng": -117.890585
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421964",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n9762213426",
+    "code": null,
+    "name": "Daiso Japan",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.887425,
+        "lng": -117.868532
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/9762213426",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228727893",
+    "code": null,
+    "name": "Del Taco",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87298,
+        "lng": -117.889297
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228727893",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1080419553",
+    "code": null,
+    "name": "Denny's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.862001,
+        "lng": -117.872488
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1080419553",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2685928423",
+    "code": null,
+    "name": "Desi Halal Pizza",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877784,
+        "lng": -117.8819
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2685928423",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421971",
+    "code": null,
+    "name": "Dollar Tree",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.875276,
+        "lng": -117.887563
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421971",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11980224343",
+    "code": null,
+    "name": "Domino's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.896824,
+        "lng": -117.872781
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11980224343",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639247540",
+    "code": null,
+    "name": "Donut Star",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874255,
+        "lng": -117.906524
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639247540",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2265587985",
+    "code": null,
+    "name": "Early Bird",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.898962,
+        "lng": -117.912067
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2265587985",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w880727881",
+    "code": null,
+    "name": "El Farolito",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.870473,
+        "lng": -117.871156
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/880727881",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w629363622",
+    "code": null,
+    "name": "El Pollo Loco",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.875106,
+        "lng": -117.87917
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/629363622",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w863198187",
+    "code": null,
+    "name": "Ensenada's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.878227,
+        "lng": -117.878596
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/863198187",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421966",
+    "code": null,
+    "name": "EōS Fitness",
+    "kind": "poi",
+    "poiType": "fitness",
+    "position": {
+      "geo": {
+        "lat": 33.873124,
+        "lng": -117.888796
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421966",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w566222191",
+    "code": null,
+    "name": "Farmer Boys",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.865499,
+        "lng": -117.881942
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/566222191",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n14040183801",
+    "code": null,
+    "name": "FedEx Distribution Center",
+    "kind": "poi",
+    "poiType": "post",
+    "position": {
+      "geo": {
+        "lat": 33.862957,
+        "lng": -117.884832
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/14040183801",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639921793",
+    "code": null,
+    "name": "Five Guys",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873643,
+        "lng": -117.88936
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921793",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w264475524",
+    "code": null,
+    "name": "Food Mart",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.874646,
+        "lng": -117.889218
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/264475524",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421972",
+    "code": null,
+    "name": "Fraise Café",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873418,
+        "lng": -117.887428
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421972",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1401726028",
+    "code": null,
+    "name": "Fullerton College Dining Hall",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874443,
+        "lng": -117.917699
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1401726028",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w133794983",
+    "code": null,
+    "name": "Fullerton Creek Greenbelt",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.886087,
+        "lng": -117.892065
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/133794983",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668105677",
+    "code": null,
+    "name": "Fullerton Dairy Alta Dena Certified Dairy",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.872284,
+        "lng": -117.907338
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668105677",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w279948228",
+    "code": null,
+    "name": "Fullerton Post Office",
+    "kind": "poi",
+    "poiType": "post",
+    "position": {
+      "geo": {
+        "lat": 33.873383,
+        "lng": -117.903344
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/279948228",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w166982212",
+    "code": null,
+    "name": "George Key Ranch Historic Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.897091,
+        "lng": -117.874887
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/166982212",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w144850146",
+    "code": null,
+    "name": "Gilman Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.902167,
+        "lng": -117.877419
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/144850146",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2678748915",
+    "code": null,
+    "name": "Ginza Sushi",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.898384,
+        "lng": -117.910397
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2678748915",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w443149807",
+    "code": null,
+    "name": "Goldenrod Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.878972,
+        "lng": -117.85997
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/443149807",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2685928424",
+    "code": null,
+    "name": "Habibi's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877781,
+        "lng": -117.88181
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2685928424",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668095952",
+    "code": null,
+    "name": "Habit Burger & Grill",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87774,
+        "lng": -117.881979
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668095952",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w490612166",
+    "code": null,
+    "name": "Imperial Market",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.869176,
+        "lng": -117.871042
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/490612166",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w191166151",
+    "code": null,
+    "name": "In-N-Out Burger",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87431,
+        "lng": -117.878423
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/191166151",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n3077719919",
+    "code": null,
+    "name": "Jack in the Box",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.876622,
+        "lng": -117.878645
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/3077719919",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2685928425",
+    "code": null,
+    "name": "Jay's Coffee Waffles & More",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877734,
+        "lng": -117.881754
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2685928425",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2539465267",
+    "code": null,
+    "name": "Kebab Masters",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873811,
+        "lng": -117.916989
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2539465267",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11980224339",
+    "code": null,
+    "name": "KFC",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.886887,
+        "lng": -117.862754
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11980224339",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10874901792",
+    "code": null,
+    "name": "Kohl's",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.887525,
+        "lng": -117.869622
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10874901792",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w111960597",
+    "code": null,
+    "name": "Kraemer Memorial Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.873654,
+        "lng": -117.871813
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/111960597",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n12827797062",
+    "code": null,
+    "name": "Krispy Krunchy Chicken",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.899842,
+        "lng": -117.909672
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/12827797062",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639247530",
+    "code": null,
+    "name": "Little Caesars",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874409,
+        "lng": -117.906865
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639247530",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n5949820076",
+    "code": null,
+    "name": "Little India",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.889274,
+        "lng": -117.870159
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/5949820076",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1080419279",
+    "code": null,
+    "name": "Love's Alternative Energy - CNG",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.862806,
+        "lng": -117.865251
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1080419279",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w109198461",
+    "code": null,
+    "name": "Lucille's Smokehouse BBQ",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.911164,
+        "lng": -117.88127
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/109198461",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10874901791",
+    "code": null,
+    "name": "Marshalls",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.886109,
+        "lng": -117.864994
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10874901791",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4790760223",
+    "code": null,
+    "name": "McDonald's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.886596,
+        "lng": -117.863498
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4790760223",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228749548",
+    "code": null,
+    "name": "McDonald's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873595,
+        "lng": -117.878683
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228749548",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w166981576",
+    "code": null,
+    "name": "McFadden Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.860455,
+        "lng": -117.87321
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/166981576",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668100676",
+    "code": null,
+    "name": "MexicaZn Fusion Grill",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873714,
+        "lng": -117.904876
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668100676",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668083548",
+    "code": null,
+    "name": "Michaelangelo's Pizza",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874476,
+        "lng": -117.903395
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668083548",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421970",
+    "code": null,
+    "name": "Mobil",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.87447,
+        "lng": -117.88922
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421970",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228727844",
+    "code": null,
+    "name": "Mobil",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.910445,
+        "lng": -117.881406
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228727844",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w863188972",
+    "code": null,
+    "name": "Mobil",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.889339,
+        "lng": -117.88522
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/863188972",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w136163148",
+    "code": null,
+    "name": "Mountain View Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.898713,
+        "lng": -117.892155
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/136163148",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n5949820075",
+    "code": null,
+    "name": "Mr Katsu",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.88933,
+        "lng": -117.870143
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/5949820075",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w1110373310",
+    "code": null,
+    "name": "Mr. BBQ",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.872664,
+        "lng": -117.890077
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/1110373310",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13348328955",
+    "code": null,
+    "name": "Mr. D's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.887449,
+        "lng": -117.865123
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13348328955",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228749644",
+    "code": null,
+    "name": "Nick's Super Burgers",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.870721,
+        "lng": -117.907655
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228749644",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639921791",
+    "code": null,
+    "name": "Noodle St",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87452,
+        "lng": -117.89057
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921791",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421978",
+    "code": null,
+    "name": "Office Depot",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.875526,
+        "lng": -117.888717
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421978",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w369181536",
+    "code": null,
+    "name": "Orvac Electronics",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.860138,
+        "lng": -117.898618
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/369181536",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10937272570",
+    "code": null,
+    "name": "Pacific Urgent Care",
+    "kind": "poi",
+    "poiType": "health",
+    "position": {
+      "geo": {
+        "lat": 33.898837,
+        "lng": -117.911985
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10937272570",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639249474",
+    "code": null,
+    "name": "Panda Express",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874601,
+        "lng": -117.890019
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639249474",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639921790",
+    "code": null,
+    "name": "Papa John's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874636,
+        "lng": -117.890567
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921790",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228749549",
+    "code": null,
+    "name": "Pepe's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877058,
+        "lng": -117.878463
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228749549",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4790760621",
+    "code": null,
+    "name": "Philly's Best",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.885711,
+        "lng": -117.863264
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4790760621",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421969",
+    "code": null,
+    "name": "Philz Coffee",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.875081,
+        "lng": -117.889162
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421969",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421959",
+    "code": null,
+    "name": "Pho Olivia",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87328,
+        "lng": -117.887612
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421959",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639398604",
+    "code": null,
+    "name": "Pita Hot Mediterranean Grill",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874343,
+        "lng": -117.903038
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639398604",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1732465439",
+    "code": null,
+    "name": "Pix Up Stix",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.898384,
+        "lng": -117.911746
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1732465439",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w375902931",
+    "code": null,
+    "name": "Placentia Library",
+    "kind": "poi",
+    "poiType": "library",
+    "position": {
+      "geo": {
+        "lat": 33.871632,
+        "lng": -117.860856
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/375902931",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w191166154",
+    "code": null,
+    "name": "Placentia Post Office",
+    "kind": "poi",
+    "poiType": "post",
+    "position": {
+      "geo": {
+        "lat": 33.886437,
+        "lng": -117.862495
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/191166154",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639398605",
+    "code": null,
+    "name": "Polly's Pies",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.871797,
+        "lng": -117.906094
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639398605",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w209299288",
+    "code": null,
+    "name": "Popeyes",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.887849,
+        "lng": -117.866195
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/209299288",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11651200786",
+    "code": null,
+    "name": "Ralphs",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.8872,
+        "lng": -117.867234
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11651200786",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w170513737",
+    "code": null,
+    "name": "Richard Samp Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.874478,
+        "lng": -117.856559
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/170513737",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13672948101",
+    "code": null,
+    "name": "Roll and Grill",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873682,
+        "lng": -117.904687
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13672948101",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w144851006",
+    "code": null,
+    "name": "Rolling Hills Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.900499,
+        "lng": -117.899728
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/144851006",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421956",
+    "code": null,
+    "name": "Round Table Pizza",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873541,
+        "lng": -117.887386
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421956",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n9892170025",
+    "code": null,
+    "name": "Sam's Club",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.86512,
+        "lng": -117.883919
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/9892170025",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w166982179",
+    "code": null,
+    "name": "Santa Fe Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.869458,
+        "lng": -117.876996
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/166982179",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n5125750323",
+    "code": null,
+    "name": "Shanghai Garden Chinese Restaurant",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.887068,
+        "lng": -117.862165
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/5125750323",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n11369627398",
+    "code": null,
+    "name": "Sharetea",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.875528,
+        "lng": -117.888261
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/11369627398",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w186421973",
+    "code": null,
+    "name": "Smart & Final",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.874888,
+        "lng": -117.887579
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/186421973",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n3077719916",
+    "code": null,
+    "name": "Sonic",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874714,
+        "lng": -117.87924
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/3077719916",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w261180190",
+    "code": null,
+    "name": "South Gym",
+    "kind": "poi",
+    "poiType": "fitness",
+    "position": {
+      "geo": {
+        "lat": 33.87975,
+        "lng": -117.892026
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/261180190",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n836910745",
+    "code": null,
+    "name": "Starbucks",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874849,
+        "lng": -117.890025
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/836910745",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1399431829",
+    "code": null,
+    "name": "Stater Bros.",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.898332,
+        "lng": -117.911132
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1399431829",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1617361921",
+    "code": null,
+    "name": "Subway",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873811,
+        "lng": -117.917168
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1617361921",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1732465435",
+    "code": null,
+    "name": "Subway",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.898852,
+        "lng": -117.909873
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1732465435",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w264475521",
+    "code": null,
+    "name": "Subway",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87372,
+        "lng": -117.88743
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/264475521",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w214846190",
+    "code": null,
+    "name": "Summit House Restaurant",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.897117,
+        "lng": -117.892974
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/214846190",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w209299289",
+    "code": null,
+    "name": "Taco Bell",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.888776,
+        "lng": -117.874398
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/209299289",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w171964025",
+    "code": null,
+    "name": "Target",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.887915,
+        "lng": -117.877976
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/171964025",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n836910749",
+    "code": null,
+    "name": "Thai Basil",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87536,
+        "lng": -117.888544
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/836910749",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639247537",
+    "code": null,
+    "name": "The Flame Broiler",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.87441,
+        "lng": -117.90677
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639247537",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w120582577",
+    "code": null,
+    "name": "The hat",
+    "kind": "poi",
+    "poiType": "grocery",
+    "position": {
+      "geo": {
+        "lat": 33.911164,
+        "lng": -117.887749
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/120582577",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w120582592",
+    "code": null,
+    "name": "The Hat",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.910872,
+        "lng": -117.888064
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/120582592",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10289138208",
+    "code": null,
+    "name": "The Old Boys Sushi",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.873393,
+        "lng": -117.889932
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10289138208",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668083552",
+    "code": null,
+    "name": "Tokyo Kitchen",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874473,
+        "lng": -117.903623
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668083552",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w118292070",
+    "code": null,
+    "name": "Tri City Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.903717,
+        "lng": -117.866155
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/118292070",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w261181777",
+    "code": null,
+    "name": "Troy Library",
+    "kind": "poi",
+    "poiType": "library",
+    "position": {
+      "geo": {
+        "lat": 33.880956,
+        "lng": -117.893863
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/261181777",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w170513742",
+    "code": null,
+    "name": "Tuffree Hill Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.900958,
+        "lng": -117.868153
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/170513742",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n13111160867",
+    "code": null,
+    "name": "Urgent Care Pros- Fullerton",
+    "kind": "poi",
+    "poiType": "health",
+    "position": {
+      "geo": {
+        "lat": 33.887335,
+        "lng": -117.868715
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/13111160867",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2679799903",
+    "code": null,
+    "name": "Verizon",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.87474,
+        "lng": -117.890026
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2679799903",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n762622238",
+    "code": null,
+    "name": "Vista Paint",
+    "kind": "poi",
+    "poiType": "shopping",
+    "position": {
+      "geo": {
+        "lat": 33.858846,
+        "lng": -117.894925
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/762622238",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w144852044",
+    "code": null,
+    "name": "Vista Park",
+    "kind": "poi",
+    "poiType": "park",
+    "position": {
+      "geo": {
+        "lat": 33.89729,
+        "lng": -117.89309
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/144852044",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w195234823",
+    "code": null,
+    "name": "Walgreens",
+    "kind": "poi",
+    "poiType": "pharmacy",
+    "position": {
+      "geo": {
+        "lat": 33.873555,
+        "lng": -117.905986
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/195234823",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n4020482960",
+    "code": null,
+    "name": "Wells Fargo",
+    "kind": "poi",
+    "poiType": "atm",
+    "position": {
+      "geo": {
+        "lat": 33.874923,
+        "lng": -117.890164
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/4020482960",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w209299332",
+    "code": null,
+    "name": "Wells Fargo",
+    "kind": "poi",
+    "poiType": "bank",
+    "position": {
+      "geo": {
+        "lat": 33.888371,
+        "lng": -117.86535
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/209299332",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w228727803",
+    "code": null,
+    "name": "Wendy's",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.910088,
+        "lng": -117.88142
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/228727803",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10220794757",
+    "code": null,
+    "name": "What's Up Japanese Noodles",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874714,
+        "lng": -117.889248
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10220794757",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10289138205",
+    "code": null,
+    "name": "Wingstop",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.877802,
+        "lng": -117.881462
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10289138205",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-w863198060",
+    "code": null,
+    "name": "World Express",
+    "kind": "poi",
+    "poiType": "fuel",
+    "position": {
+      "geo": {
+        "lat": 33.878207,
+        "lng": -117.878184
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/way/863198060",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2639921788",
+    "code": null,
+    "name": "Yogurtland",
+    "kind": "poi",
+    "poiType": "dining",
+    "position": {
+      "geo": {
+        "lat": 33.874671,
+        "lng": -117.890021
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2639921788",
+      "verified": false
+    }
+  }
+]

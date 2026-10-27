@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "ent-tsu-main",
+    "buildingId": "bldg-tsu",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-tsu",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1655,
+        "y": 4418
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-b-main",
+    "buildingId": "bldg-b",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-b",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1967,
+        "y": 4466
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-pl-main",
+    "buildingId": "bldg-pl",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-pl",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2509,
+        "y": 4527
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cpac-main",
+    "buildingId": "bldg-cpac",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cpac",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2091,
+        "y": 4837
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-h-main",
+    "buildingId": "bldg-h",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-h",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3036,
+        "y": 5044
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mh-main",
+    "buildingId": "bldg-mh",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-mh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2549,
+        "y": 5338
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-dbh-main",
+    "buildingId": "bldg-dbh",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-dbh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2295,
+        "y": 5637
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ec-main",
+    "buildingId": "bldg-ec",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-ec",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3055,
+        "y": 4727
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-e-main",
+    "buildingId": "bldg-e",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-e",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3600,
+        "y": 4218
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cs-main",
+    "buildingId": "bldg-cs",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3844,
+        "y": 4218
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-khs-main",
+    "buildingId": "bldg-khs",
+    "name": "Main entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-khs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2182,
+        "y": 4036
+      }
+    },
+    "provenance": {
+      "source": "manual",
+      "sourceRef": "hand-placed over campus map (illustrative)",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ad-south",
+    "buildingId": "bldg-ad",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2926,
+        "y": 5953
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ad-north",
+    "buildingId": "bldg-ad",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2889,
+        "y": 5315
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ad-east",
+    "buildingId": "bldg-ad",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3268,
+        "y": 5762
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-asc-southwest",
+    "buildingId": "bldg-asc",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 158,
+        "y": 4682
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-asc-east",
+    "buildingId": "bldg-asc",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 447,
+        "y": 4566
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cc-east",
+    "buildingId": "bldg-cc",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1586,
+        "y": 2254
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cc-north",
+    "buildingId": "bldg-cc",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1328,
+        "y": 2043
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cc-south",
+    "buildingId": "bldg-cc",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1325,
+        "y": 2364
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cj-southeast",
+    "buildingId": "bldg-cj",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3508,
+        "y": 5937
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cj-northeast",
+    "buildingId": "bldg-cj",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3453,
+        "y": 5716
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cp-southwest",
+    "buildingId": "bldg-cp",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3265,
+        "y": 6765
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cp-southeast",
+    "buildingId": "bldg-cp",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3544,
+        "y": 6768
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cp-northeast",
+    "buildingId": "bldg-cp",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3690,
+        "y": 6533
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cy-northeast",
+    "buildingId": "bldg-cy",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1209,
+        "y": 2629
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cy-northwest",
+    "buildingId": "bldg-cy",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 893,
+        "y": 2596
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cy-south",
+    "buildingId": "bldg-cy",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1027,
+        "y": 3206
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gah-southeast",
+    "buildingId": "bldg-gah",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 957,
+        "y": 4197
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gah-northwest",
+    "buildingId": "bldg-gah",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 758,
+        "y": 4024
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gah-south",
+    "buildingId": "bldg-gah",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 810,
+        "y": 4412
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gc-west",
+    "buildingId": "bldg-gc",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1645,
+        "y": 5648
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gc-east",
+    "buildingId": "bldg-gc",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2053,
+        "y": 5563
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gc-southwest",
+    "buildingId": "bldg-gc",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1652,
+        "y": 5883
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gh-southwest",
+    "buildingId": "bldg-gh",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3091,
+        "y": 5731
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gh-northwest",
+    "buildingId": "bldg-gh",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3012,
+        "y": 5400
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gh-northeast",
+    "buildingId": "bldg-gh",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3265,
+        "y": 5374
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-hre-northeast",
+    "buildingId": "bldg-hre",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4412,
+        "y": 3155
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-hre-south",
+    "buildingId": "bldg-hre",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4252,
+        "y": 3423
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mc-west",
+    "buildingId": "bldg-mc",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2232,
+        "y": 6075
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mc-southeast",
+    "buildingId": "bldg-mc",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2598,
+        "y": 6152
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mc-north",
+    "buildingId": "bldg-mc",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2431,
+        "y": 5953
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ms-southeast",
+    "buildingId": "bldg-ms",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3283,
+        "y": 3062
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ms-northwest",
+    "buildingId": "bldg-ms",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3120,
+        "y": 2798
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rg-northeast",
+    "buildingId": "bldg-rg",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3680,
+        "y": 3431
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rg-north",
+    "buildingId": "bldg-rg",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3617,
+        "y": 3156
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rg-south",
+    "buildingId": "bldg-rg",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3675,
+        "y": 3685
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rh-northwest",
+    "buildingId": "bldg-rh",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3871,
+        "y": 3021
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rh-northeast",
+    "buildingId": "bldg-rh",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4111,
+        "y": 3129
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-rh-south",
+    "buildingId": "bldg-rh",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3991,
+        "y": 3384
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-sgmh-northeast",
+    "buildingId": "bldg-sgmh",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3610,
+        "y": 5753
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-sgmh-west",
+    "buildingId": "bldg-sgmh",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3260,
+        "y": 5915
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-sgmh-east",
+    "buildingId": "bldg-sgmh",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3683,
+        "y": 6046
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-shcc-northeast",
+    "buildingId": "bldg-shcc",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3288,
+        "y": 3504
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-shcc-southwest",
+    "buildingId": "bldg-shcc",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3028,
+        "y": 3886
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-shcc-southeast",
+    "buildingId": "bldg-shcc",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3420,
+        "y": 3834
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-src-north",
+    "buildingId": "bldg-src",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1391,
+        "y": 3367
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-src-northwest",
+    "buildingId": "bldg-src",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1003,
+        "y": 3388
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-src-northeast",
+    "buildingId": "bldg-src",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1782,
+        "y": 3396
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-t-east",
+    "buildingId": "bldg-t",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3352,
+        "y": 3339
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-t-southwest",
+    "buildingId": "bldg-t",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3084,
+        "y": 3367
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-t-north",
+    "buildingId": "bldg-t",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3291,
+        "y": 3107
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tdh-south",
+    "buildingId": "bldg-tdh",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4072,
+        "y": 3718
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tdh-west",
+    "buildingId": "bldg-tdh",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3805,
+        "y": 3606
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tdh-east",
+    "buildingId": "bldg-tdh",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4417,
+        "y": 3686
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-th-southwest",
+    "buildingId": "bldg-th",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 161,
+        "y": 4778
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-th-north",
+    "buildingId": "bldg-th",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 467,
+        "y": 4605
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttc-southeast",
+    "buildingId": "bldg-ttc",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1697,
+        "y": 3043
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttc-southwest",
+    "buildingId": "bldg-ttc",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1384,
+        "y": 3340
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttc-south",
+    "buildingId": "bldg-ttc",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1653,
+        "y": 3335
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-up-northeast",
+    "buildingId": "bldg-up",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 919,
+        "y": 3488
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-up-southeast",
+    "buildingId": "bldg-up",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 919,
+        "y": 3829
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-va-northeast",
+    "buildingId": "bldg-va",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1320,
+        "y": 4733
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-va-southwest",
+    "buildingId": "bldg-va",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 761,
+        "y": 5044
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-va-south",
+    "buildingId": "bldg-va",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 955,
+        "y": 5427
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-olli-northwest",
+    "buildingId": "bldg-olli",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3664,
+        "y": 3085
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-olli-south",
+    "buildingId": "bldg-olli",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3705,
+        "y": 3758
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-olli-northeast",
+    "buildingId": "bldg-olli",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3896,
+        "y": 3077
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-heritage-house-northwest",
+    "buildingId": "lm-heritage-house",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3238,
+        "y": 1330
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-fullerton-marriott-south",
+    "buildingId": "lm-fullerton-marriott",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4124,
+        "y": 6173
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-fullerton-marriott-southwest",
+    "buildingId": "lm-fullerton-marriott",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3883,
+        "y": 6049
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-fullerton-marriott-east",
+    "buildingId": "lm-fullerton-marriott",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4332,
+        "y": 5871
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-titan-aquatics-center-south",
+    "buildingId": "lm-titan-aquatics-center",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2813,
+        "y": 3932
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-titan-aquatics-center-northeast",
+    "buildingId": "lm-titan-aquatics-center",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2901,
+        "y": 3708
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-enps-southwest",
+    "buildingId": "park-enps",
+    "name": "Southwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4019,
+        "y": 5396
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-enps-northwest",
+    "buildingId": "park-enps",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3968,
+        "y": 4539
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-enps-northeast",
+    "buildingId": "park-enps",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4545,
+        "y": 4438
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-nps-west",
+    "buildingId": "park-nps",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 789,
+        "y": 6075
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-nps-south",
+    "buildingId": "park-nps",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1516,
+        "y": 6076
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-nps-northwest",
+    "buildingId": "park-nps",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 789,
+        "y": 5559
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s10-east",
+    "buildingId": "park-s10",
+    "name": "East exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2540,
+        "y": 835
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s10-west",
+    "buildingId": "park-s10",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1762,
+        "y": 903
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s8-northeast",
+    "buildingId": "park-s8",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1680,
+        "y": 946
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s8-north",
+    "buildingId": "park-s8",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1571,
+        "y": 691
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s8-south",
+    "buildingId": "park-s8",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1462,
+        "y": 1902
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e7-west",
+    "buildingId": "park-e7",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 893,
+        "y": 2458
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e7-east",
+    "buildingId": "park-e7",
+    "name": "East exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1263,
+        "y": 2389
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e7-northwest",
+    "buildingId": "park-e7",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 724,
+        "y": 1966
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e6-northeast",
+    "buildingId": "park-e6",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3547,
+        "y": 3070
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e6-south",
+    "buildingId": "park-e6",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3358,
+        "y": 3368
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-north-southeast",
+    "buildingId": "park-e1-north",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3894,
+        "y": 4679
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-north-southwest",
+    "buildingId": "park-e1-north",
+    "name": "Southwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3596,
+        "y": 4679
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-north-northeast",
+    "buildingId": "park-e1-north",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3950,
+        "y": 4207
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-south-north",
+    "buildingId": "park-e1-south",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3966,
+        "y": 4857
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-south-west",
+    "buildingId": "park-e1-south",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3447,
+        "y": 5093
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e1-south-southwest",
+    "buildingId": "park-e1-south",
+    "name": "Southwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3470,
+        "y": 5369
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e2-west",
+    "buildingId": "park-e2",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1730,
+        "y": 5977
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e2-southeast",
+    "buildingId": "park-e2",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2139,
+        "y": 6176
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e2-northwest",
+    "buildingId": "park-e2",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1649,
+        "y": 5766
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e3-southeast",
+    "buildingId": "park-e3",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1290,
+        "y": 6358
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e3-west",
+    "buildingId": "park-e3",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 810,
+        "y": 6071
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e3-northeast",
+    "buildingId": "park-e3",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1284,
+        "y": 6054
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-th-northwest",
+    "buildingId": "park-e-th",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 166,
+        "y": 4698
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-th-southwest",
+    "buildingId": "park-e-th",
+    "name": "Southwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 648,
+        "y": 5530
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-th-north",
+    "buildingId": "park-e-th",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 764,
+        "y": 4971
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r1-northwest",
+    "buildingId": "park-r1",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4019,
+        "y": 4145
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r1-west",
+    "buildingId": "park-r1",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3986,
+        "y": 4423
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r1-east",
+    "buildingId": "park-r1",
+    "name": "East exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4582,
+        "y": 4425
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r2-northwest",
+    "buildingId": "park-r2",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4239,
+        "y": 2736
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r2-south",
+    "buildingId": "park-r2",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4403,
+        "y": 3677
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r2-north",
+    "buildingId": "park-r2",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4403,
+        "y": 2342
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r3-northeast",
+    "buildingId": "park-r3",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4410,
+        "y": 1974
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r3-northwest",
+    "buildingId": "park-r3",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4121,
+        "y": 1972
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-r3-southeast",
+    "buildingId": "park-r3",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4493,
+        "y": 2330
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-cp-northeast",
+    "buildingId": "park-e-cp",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3878,
+        "y": 6522
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-cp-southeast",
+    "buildingId": "park-e-cp",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3873,
+        "y": 7111
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-e-cp-west",
+    "buildingId": "park-e-cp",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3235,
+        "y": 6501
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s-cp-northwest",
+    "buildingId": "park-s-cp",
+    "name": "Northwest exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3104,
+        "y": 7076
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s-cp-northeast",
+    "buildingId": "park-s-cp",
+    "name": "Northeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3886,
+        "y": 7079
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-s-cp-north",
+    "buildingId": "park-s-cp",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3439,
+        "y": 7071
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsu-west",
+    "buildingId": "bldg-tsu",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-tsu",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 970,
+        "y": 4423
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsu-northwest",
+    "buildingId": "bldg-tsu",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-tsu",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 958,
+        "y": 4042
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-b-northeast",
+    "buildingId": "bldg-b",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-b",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2132,
+        "y": 4148
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-pl-south",
+    "buildingId": "bldg-pl",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-pl",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2843,
+        "y": 4836
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-pl-north",
+    "buildingId": "bldg-pl",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-pl",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2672,
+        "y": 4053
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-pl-southeast",
+    "buildingId": "bldg-pl",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-pl",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2807,
+        "y": 4541
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cpac-south",
+    "buildingId": "bldg-cpac",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cpac",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2000,
+        "y": 5308
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cpac-southwest",
+    "buildingId": "bldg-cpac",
+    "name": "Southwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cpac",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1670,
+        "y": 5292
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cpac-southeast",
+    "buildingId": "bldg-cpac",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cpac",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2328,
+        "y": 5292
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-h-northeast",
+    "buildingId": "bldg-h",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-h",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3345,
+        "y": 4985
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mh-south",
+    "buildingId": "bldg-mh",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-mh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2393,
+        "y": 5642
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-mh-east",
+    "buildingId": "bldg-mh",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-mh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2812,
+        "y": 5363
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-dbh-southeast",
+    "buildingId": "bldg-dbh",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-dbh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2530,
+        "y": 5921
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-dbh-east",
+    "buildingId": "bldg-dbh",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-dbh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2826,
+        "y": 5688
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-dbh-west",
+    "buildingId": "bldg-dbh",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-dbh",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2049,
+        "y": 5921
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ec-east",
+    "buildingId": "bldg-ec",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-ec",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3273,
+        "y": 4534
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ec-northwest",
+    "buildingId": "bldg-ec",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-ec",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2955,
+        "y": 4395
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-e-west",
+    "buildingId": "bldg-e",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-e",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3504,
+        "y": 3963
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-e-east",
+    "buildingId": "bldg-e",
+    "name": "East entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-e",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3950,
+        "y": 3963
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-cs-northwest",
+    "buildingId": "bldg-cs",
+    "name": "Northwest entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-cs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3785,
+        "y": 3944
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-khs-northeast",
+    "buildingId": "bldg-khs",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-khs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2784,
+        "y": 3382
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-khs-southeast",
+    "buildingId": "bldg-khs",
+    "name": "Southeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": "n-khs",
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2680,
+        "y": 3912
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: footprint corner nearest a walkway",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-af-northeast",
+    "buildingId": "bldg-af",
+    "name": "Northeast access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2887,
+        "y": 1904
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ep-west",
+    "buildingId": "bldg-ep",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2485,
+        "y": 3050
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ep-south",
+    "buildingId": "bldg-ep",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2732,
+        "y": 3332
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ep-east",
+    "buildingId": "bldg-ep",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3076,
+        "y": 2955
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gf-north",
+    "buildingId": "bldg-gf",
+    "name": "North access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2617,
+        "y": 1169
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gf-east",
+    "buildingId": "bldg-gf",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2906,
+        "y": 1389
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-gf-southeast",
+    "buildingId": "bldg-gf",
+    "name": "Southeast access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2962,
+        "y": 1607
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-if-east",
+    "buildingId": "bldg-if",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2483,
+        "y": 3010
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-if-south",
+    "buildingId": "bldg-if",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2342,
+        "y": 3327
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lh-west",
+    "buildingId": "bldg-lh",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2843,
+        "y": 5808
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lh-northeast",
+    "buildingId": "bldg-lh",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3106,
+        "y": 5719
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-p-northeast",
+    "buildingId": "bldg-p",
+    "name": "Northeast entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 425,
+        "y": 4573
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-p-west",
+    "buildingId": "bldg-p",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 159,
+        "y": 4652
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tg-north",
+    "buildingId": "bldg-tg",
+    "name": "North entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2390,
+        "y": 3381
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tg-south",
+    "buildingId": "bldg-tg",
+    "name": "South entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2341,
+        "y": 3935
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tg-west",
+    "buildingId": "bldg-tg",
+    "name": "West entrance (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1927,
+        "y": 3623
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ts-east",
+    "buildingId": "bldg-ts",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2025,
+        "y": 1602
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ts-west",
+    "buildingId": "bldg-ts",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1673,
+        "y": 1717
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsc-southwest",
+    "buildingId": "bldg-tsc",
+    "name": "Southwest access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2480,
+        "y": 2166
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsf-east",
+    "buildingId": "bldg-tsf",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3189,
+        "y": 2383
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsf-west",
+    "buildingId": "bldg-tsf",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2676,
+        "y": 2464
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-tsf-north",
+    "buildingId": "bldg-tsf",
+    "name": "North access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3124,
+        "y": 2075
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttf-north",
+    "buildingId": "bldg-ttf",
+    "name": "North access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2221,
+        "y": 2185
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttf-east",
+    "buildingId": "bldg-ttf",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2626,
+        "y": 2543
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-ttf-southeast",
+    "buildingId": "bldg-ttf",
+    "name": "Southeast access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2481,
+        "y": 2760
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-quad-south",
+    "buildingId": "lm-quad",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2665,
+        "y": 5210
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-quad-northeast",
+    "buildingId": "lm-quad",
+    "name": "Northeast access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2811,
+        "y": 4998
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-quad-west",
+    "buildingId": "lm-quad",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2469,
+        "y": 5064
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-commons-west",
+    "buildingId": "lm-commons",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2175,
+        "y": 4426
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-commons-northeast",
+    "buildingId": "lm-commons",
+    "name": "Northeast access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2392,
+        "y": 4324
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-commons-south",
+    "buildingId": "lm-commons",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2236,
+        "y": 4660
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-titan-walk-west",
+    "buildingId": "lm-titan-walk",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1961,
+        "y": 4513
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-becker-amphitheater-south",
+    "buildingId": "lm-becker-amphitheater",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1890,
+        "y": 4652
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-ecs-lawn-south",
+    "buildingId": "lm-ecs-lawn",
+    "name": "South access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3136,
+        "y": 4278
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-ecs-lawn-west",
+    "buildingId": "lm-ecs-lawn",
+    "name": "West access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 2988,
+        "y": 4105
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-ecs-lawn-north",
+    "buildingId": "lm-ecs-lawn",
+    "name": "North access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3163,
+        "y": 3882
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-tuffy-lawn-east",
+    "buildingId": "lm-tuffy-lawn",
+    "name": "East access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1933,
+        "y": 3770
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-lm-arboretum-southwest",
+    "buildingId": "lm-arboretum",
+    "name": "Southwest access (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3740,
+        "y": 1590
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-scps-north",
+    "buildingId": "park-scps",
+    "name": "North exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1213,
+        "y": 3389
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-scps-west",
+    "buildingId": "park-scps",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 940,
+        "y": 3588
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-scps-south",
+    "buildingId": "park-scps",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 1123,
+        "y": 3920
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-esps-south",
+    "buildingId": "park-esps",
+    "name": "South exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4242,
+        "y": 5394
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-esps-west",
+    "buildingId": "park-esps",
+    "name": "West exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 3973,
+        "y": 5127
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  },
+  {
+    "id": "ent-park-esps-southeast",
+    "buildingId": "park-esps",
+    "name": "Southeast exit (approximate)",
+    "accessible": null,
+    "publicAccess": true,
+    "nodeId": null,
+    "floorId": null,
+    "position": {
+      "pixel": {
+        "x": 4483,
+        "y": 5635
+      }
+    },
+    "provenance": {
+      "source": "map-image",
+      "sourceRef": "derived: nearest walkway on each side of the map pin",
+      "verified": false
+    }
+  }
+]
