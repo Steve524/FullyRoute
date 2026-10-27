@@ -9,7 +9,7 @@ import { loadAccount, loadSchedule, saveAccount, saveSchedule, type SavedSchedul
 
 interface MyClassesProps {
   places: Building[] // routable, non-parking places a class can be assigned to
-  onRoute: (buildingId: string) => void
+  onRoute: (buildingId: string, roomText: string | null) => void
 }
 
 const sample = scheduleData as ScheduleFile

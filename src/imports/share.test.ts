@@ -9,6 +9,7 @@ describe('readShareState', () => {
       from: 'bldg-cs',
       to: 'bldg-pl',
       accessible: true,
+      room: null,
     })
   })
 
@@ -17,8 +18,9 @@ describe('readShareState', () => {
       from: null,
       to: 'bldg-pl',
       accessible: false,
+      room: null,
     })
-    expect(readShareState('', ids)).toEqual({ from: null, to: null, accessible: false })
+    expect(readShareState('', ids)).toEqual({ from: null, to: null, accessible: false, room: null })
   })
 })
 
@@ -36,8 +38,24 @@ describe('shareHref', () => {
     expect(q.has('accessible')).toBe(false)
   })
 
-  it('round-trips through readShareState', () => {
+  it('round-trips through readShareState without a room', () => {
     const state = { from: 'bldg-cs', to: 'bldg-pl', accessible: true }
-    expect(readShareState(new URL(shareHref('https://x.test/', state)).search, ids)).toEqual(state)
+    expect(readShareState(new URL(shareHref('https://x.test/', state)).search, ids)).toEqual({ ...state, room: null })
+  })
+
+  it('round-trips a room', () => {
+    for (const room of ['CS-110', 'MH 602']) {
+      const state = { from: 'bldg-pl', to: 'bldg-cs', accessible: false, room }
+      const href = shareHref('https://x.test/', state)
+      expect(new URL(href).searchParams.get('room')).toBe(room)
+      expect(readShareState(new URL(href).search, ids)).toEqual(state)
+    }
+  })
+
+  it('drops a room without a destination, and odd room text', () => {
+    expect(new URL(shareHref('https://x.test/', { from: 'bldg-cs', to: null, accessible: false, room: 'CS-110' })).searchParams.has('room')).toBe(false)
+    expect(readShareState('?to=evil&room=CS-110', ids).room).toBeNull()
+    expect(readShareState('?to=bldg-cs&room=%3Cscript%3E', ids).room).toBeNull()
+    expect(readShareState('?to=bldg-cs&room=CS-110&from=bldg-pl', ids)).toEqual({ from: 'bldg-pl', to: 'bldg-cs', accessible: false, room: 'CS-110' })
   })
 })

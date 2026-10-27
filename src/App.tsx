@@ -7,6 +7,8 @@ import CampusMap, { type BuildingKind, type MapDoor, type MapHighlight, type Map
 import RouteSteps from './imports/RouteSteps'
 import InteriorMap from './imports/InteriorMap'
 import MyClasses from './imports/MyClasses'
+import RoomNumberSearch from './imports/RoomNumberSearch'
+import { parseRoomQuery, roomLabel, type RoomQuery } from './imports/roomSearch'
 import { interiorByBuilding } from './imports/interiorRouting'
 import entrancesData from './imports/entrances.json'
 import { findRoute, placeDoors, placePin, routableBuildingIds, type RouteOutcome } from './imports/routing'
@@ -46,6 +48,8 @@ export default function App() {
   )
   const [showCategories, setShowCategories] = useState(false)
   const [stepFree, setStepFree] = useState(shared.accessible)
+  // The room being routed to; always inside the destination building.
+  const [room, setRoom] = useState<RoomQuery | null>(() => roomIn(shared.to, shared.room))
   const [interiorFor, setInteriorFor] = useState<string | null>(null)
   const [tab, setTab] = useState<Tab>('route')
   const [mapView, setMapView] = useState<'campus' | 'area'>('campus')
@@ -55,9 +59,9 @@ export default function App() {
 
   // Keep the address bar in sync so it can be shared or bookmarked at any point.
   useEffect(() => {
-    const next = shareHref(window.location.href, { from: startId, to: destId, accessible: stepFree })
+    const next = shareHref(window.location.href, { from: startId, to: destId, accessible: stepFree, room: room && roomLabel(room) })
     if (next !== window.location.href) window.history.replaceState(window.history.state, '', next)
-  }, [startId, destId, stepFree])
+  }, [startId, destId, stepFree, room])
 
   const classPlaces = useMemo(
     () =>
@@ -101,6 +105,7 @@ export default function App() {
   const pickDest = (id: string | null) => {
     setDestId(id)
     setOutcome(null)
+    if (id !== room?.buildingId) setRoom(null)
   }
   const reset = () => {
     pickStart(null)
@@ -109,6 +114,7 @@ export default function App() {
 
   // Swapping keeps a shown route by routing the reverse trip.
   const swap = () => {
+    setRoom(null)
     setStartId(destId)
     setDestId(startId)
     setOutcome(outcome && startId && destId ? findRoute(destId, startId, stepFree) : null)
@@ -119,11 +125,17 @@ export default function App() {
     if (outcome && startId && destId && !sameBuilding) setOutcome(findRoute(startId, destId, next))
   }
 
-  // From the class list: make the class the destination and route there if a start is set.
-  const routeToClass = (buildingId: string) => {
-    setTab('route')
+  // Make a building (and optionally a room in it) the destination, routing there if a start is set.
+  const goTo = (buildingId: string, target: RoomQuery | null) => {
     setDestId(buildingId)
+    setRoom(target)
     setOutcome(startId && startId !== buildingId ? findRoute(startId, buildingId, stepFree) : null)
+  }
+
+  // From the class list: go to the class's building, and its classroom when the room text matches it.
+  const routeToClass = (buildingId: string, roomText: string | null) => {
+    setTab('route')
+    goTo(buildingId, roomIn(buildingId, roomText))
   }
 
   const route = outcome?.ok ? outcome.route : undefined
@@ -275,6 +287,12 @@ export default function App() {
                   </button>
                 </div>
                 <BuildingPicker label="Destination" placeholder="Where are you going?" options={selectable} value={destId} onChange={pickDest} accent="destination" routableIds={routableBuildingIds} />
+                <RoomNumberSearch
+                  room={room}
+                  placeName={dest?.name ?? null}
+                  onFind={(r) => goTo(r.buildingId, r)}
+                  onContinue={() => room && setInteriorFor(room.buildingId)}
+                />
 
                 {sameBuilding && (
                   <p className="rounded-lg bg-titan/10 px-3 py-2 text-sm font-medium text-titan">
@@ -345,7 +363,7 @@ export default function App() {
                   route={route}
                   startName={start.name}
                   destName={dest.name}
-                  shareUrl={shareHref(window.location.href, { from: startId, to: destId, accessible: stepFree })}
+                  shareUrl={shareHref(window.location.href, { from: startId, to: destId, accessible: stepFree, room: room && roomLabel(room) })}
                   onOpenInterior={interiorByBuilding.has(dest.id) ? () => setInteriorFor(dest.id) : undefined}
                 />
               )}
@@ -432,6 +450,7 @@ export default function App() {
           {interiorFor && interiorByBuilding.has(interiorFor) && (
             <InteriorMap
               interior={interiorByBuilding.get(interiorFor)!}
+              initialRoomId={room?.buildingId === interiorFor ? room.roomId : null}
               arrivalEntranceId={arrivalEntranceId(interiorFor, route?.endDoorPoint)}
               stepFree={stepFree}
               onClose={() => setInteriorFor(null)}
@@ -441,6 +460,12 @@ export default function App() {
       </main>
     </div>
   )
+}
+
+// Room text ("CS-110") read as a room in this building; anything else is dropped.
+function roomIn(buildingId: string | null, text: string | null | undefined): RoomQuery | null {
+  const r = buildingId && text ? parseRoomQuery(text) : null
+  return r && r.buildingId === buildingId ? r : null
 }
 
 function MapLoading() {

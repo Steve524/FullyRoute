@@ -7,7 +7,7 @@ interface SchedulePanelProps {
   items: ScheduleItem[]
   places: Building[] // routable, non-parking places a class can be assigned to
   onChange: (item: ScheduleItem) => void
-  onRoute: (buildingId: string) => void
+  onRoute: (buildingId: string, roomText: string | null) => void // roomText like "CS 110", when known
 }
 
 const DAY_ORDER: Day[] = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -133,7 +133,7 @@ export default function SchedulePanel({ term, note, items, places, onChange, onR
                   {place ? (
                     <button
                       type="button"
-                      onClick={() => onRoute(place.id)}
+                      onClick={() => onRoute(place.id, place.code && item.roomNumber ? `${place.code} ${item.roomNumber}` : null)}
                       className="rounded-md bg-navy px-2.5 py-1 text-xs font-semibold text-white transition hover:bg-navy/90"
                     >
                       Route to {place.code ?? place.name}
