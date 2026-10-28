@@ -1,4 +1,5 @@
 import type { Building, Day, ScheduleItem } from './types'
+import { placeByCode, splitRoomCode } from './roomSearch'
 
 // Turns an uploaded schedule (.ics, .csv, or a Titan Online PDF) into ScheduleItems.
 // Everything runs in the browser. Imported rows always start unconfirmed so the
@@ -113,12 +114,10 @@ export function matchLocation(raw: string, places: Building[]): LocationMatch {
   const [head, ...rest] = text.split(/\s+[-–]\s+/)
   const roomDesc = rest.join(' - ') || null
 
-  const coded = /^([A-Za-z]{1,5})[\s-]*(\d{1,4}[A-Za-z]{0,2})$/.exec(head)
+  const coded = splitRoomCode(head)
   if (coded) {
-    const code = coded[1].toUpperCase()
-    const hits = places.filter((p) => p.code?.toUpperCase() === code)
-    const place = hits.length === 1 ? hits[0] : null
-    return { buildingId: place?.id ?? null, buildingCode: code, roomNumber: coded[2].toUpperCase(), roomDesc, confidence: place ? 0.9 : 0.4 }
+    const place = placeByCode(coded.code, places)
+    return { buildingId: place?.id ?? null, buildingCode: coded.code, roomNumber: coded.roomNumber, roomDesc, confidence: place ? 0.9 : 0.4 }
   }
 
   const named = /^(.*?)[\s,-]+(?:room\s*)?(\d{1,4}[A-Za-z]{0,2})$/i.exec(head)
