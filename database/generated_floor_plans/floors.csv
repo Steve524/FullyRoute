@@ -1,0 +1,21 @@
+floor_id,building_id,building_name,floor_number,floor_name,image_path,svg_path,image_width_px,image_height_px,room_count,is_synthetic
+computer_science_f0,computer_science,Computer Science,0,Ground Floor,plans/computer_science/floor_0.png,plans/computer_science/floor_0.svg,1740,2210,18,true
+computer_science_f1,computer_science,Computer Science,1,First Floor,plans/computer_science/floor_1.png,plans/computer_science/floor_1.svg,1740,2210,21,true
+computer_science_f2,computer_science,Computer Science,2,Second Floor,plans/computer_science/floor_2.png,plans/computer_science/floor_2.svg,1740,2210,16,true
+computer_science_f3,computer_science,Computer Science,3,Third Floor,plans/computer_science/floor_3.png,plans/computer_science/floor_3.svg,1740,2210,31,true
+education_classroom_f0,education_classroom,Education Classroom,0,Ground Floor,plans/education_classroom/floor_0.png,plans/education_classroom/floor_0.svg,2304,2250,22,true
+education_classroom_f1,education_classroom,Education Classroom,1,First Floor,plans/education_classroom/floor_1.png,plans/education_classroom/floor_1.svg,2304,2250,25,true
+education_classroom_f2,education_classroom,Education Classroom,2,Second Floor,plans/education_classroom/floor_2.png,plans/education_classroom/floor_2.svg,2304,2250,19,true
+education_classroom_f3,education_classroom,Education Classroom,3,Third Floor,plans/education_classroom/floor_3.png,plans/education_classroom/floor_3.svg,2304,2250,40,true
+engineering_f0,engineering,Engineering,0,Ground Floor,plans/engineering/floor_0.png,plans/engineering/floor_0.svg,1254,2409,18,true
+engineering_f1,engineering,Engineering,1,First Floor,plans/engineering/floor_1.png,plans/engineering/floor_1.svg,1254,2409,20,true
+engineering_f2,engineering,Engineering,2,Second Floor,plans/engineering/floor_2.png,plans/engineering/floor_2.svg,1254,2409,15,true
+engineering_f3,engineering,Engineering,3,Third Floor,plans/engineering/floor_3.png,plans/engineering/floor_3.svg,1254,2409,32,true
+humanities_f0,humanities,Humanities,0,Ground Floor,plans/humanities/floor_0.png,plans/humanities/floor_0.svg,2475,1540,17,true
+humanities_f1,humanities,Humanities,1,First Floor,plans/humanities/floor_1.png,plans/humanities/floor_1.svg,2475,1540,21,true
+humanities_f2,humanities,Humanities,2,Second Floor,plans/humanities/floor_2.png,plans/humanities/floor_2.svg,2475,1540,14,true
+humanities_f3,humanities,Humanities,3,Third Floor,plans/humanities/floor_3.png,plans/humanities/floor_3.svg,2475,1540,30,true
+mccarthy_hall_f0,mccarthy_hall,McCarthy Hall,0,Ground Floor,plans/mccarthy_hall/floor_0.png,plans/mccarthy_hall/floor_0.svg,3072,1644,23,true
+mccarthy_hall_f1,mccarthy_hall,McCarthy Hall,1,First Floor,plans/mccarthy_hall/floor_1.png,plans/mccarthy_hall/floor_1.svg,3072,1644,28,true
+mccarthy_hall_f2,mccarthy_hall,McCarthy Hall,2,Second Floor,plans/mccarthy_hall/floor_2.png,plans/mccarthy_hall/floor_2.svg,3072,1644,15,true
+mccarthy_hall_f3,mccarthy_hall,McCarthy Hall,3,Third Floor,plans/mccarthy_hall/floor_3.png,plans/mccarthy_hall/floor_3.svg,3072,1644,44,true

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "buildings": 5,
+  "floors": 20,
+  "numbered_spaces": 469,
+  "corridors": 67,
+  "pngs_verified": 20,
+  "svg_label_sets_match_csv": true,
+  "png_alpha_matches_source_masks": true,
+  "csv_keys_and_paths_valid": true,
+  "label_collisions": 0,
+  "label_containment_failures": 0,
+  "spec_errors": 0,
+  "spec_warnings": 166,
+  "warning_note": "Edge geometry is intentionally clipped to the exact building mask; see spec_validation.json."
+}

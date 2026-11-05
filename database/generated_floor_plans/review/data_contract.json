@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "purpose": "Proposed CSV import contract for invented demonstration floorplans; does not change existing migrations.",
+  "disclosure": "SYNTHETIC DEMO LAYOUT — invented rooms and routes fitted to a supplied building silhouette. Not a verified campus floorplan; not for navigation or emergency use.",
+  "database_observation": "02_buildings.sql defines buildings(id UUID, buildings varchar(50) unique). No floor/room tables exist. Its trailing comma is an existing SQL syntax issue; this proposal leaves migrations unchanged.",
+  "inspected_style_references": [
+    "C:/Users/sortiz/.t3/userdata/attachments/c421cf06-02b7-426e-96c1-e1de5d82569d-946201ee-125f-481e-9665-7b6186dda8d7.png",
+    "C:/Users/sortiz/.t3/userdata/attachments/c421cf06-02b7-426e-96c1-e1de5d82569d-88c5bb90-6be1-4891-a9de-e13605b60688.png",
+    "C:/Users/sortiz/.t3/userdata/attachments/c421cf06-02b7-426e-96c1-e1de5d82569d-7c936621-77ff-481e-afaa-a095ed6555d2.png",
+    "C:/Users/sortiz/.t3/userdata/attachments/c421cf06-02b7-426e-96c1-e1de5d82569d-bd4499f3-1268-46ef-8883-a0380c0a12ad.png"
+  ],
+  "identity": {
+    "building_id": "Immutable ASCII slug assigned once per source building; never derive it again from a renamed display name. Map to an existing buildings.id UUID through a separate import mapping rather than replacing database IDs.",
+    "floor_id": "{building_id}:f{floor}; floor is the integer 0, 1, 2, or 3.",
+    "room_id": "{floor_id}:r:{percent_encoded_number}; room number is a case-sensitive string and preserves leading zeroes/suffixes.",
+    "corridor_id": "{floor_id}:c:{percent_encoded_number}",
+    "core_id": "{building_id}:core:{stable_token}; shared by the same stair/elevator on all four floors.",
+    "explicit_spec_ids": "Optional floor_id/room_id/id fields must be globally unique when supplied. Otherwise the validator derives canonical IDs. Duplicate visible numbers within one floor are invalid even across corridors and rooms."
+  },
+  "csv_format": {"encoding": "UTF-8", "dialect": "RFC 4180, comma separated, header row", "null": "empty field", "booleans": "true or false", "structured_cells": "JSON encoded and CSV quoted", "numbers": "Room/corridor labels must be imported as text, never inferred as numeric."},
+  "csv_schemas": {
+    "buildings.csv": {
+      "primary_key": ["building_id"],
+      "columns": {"building_id": "string", "building_name": "display string", "database_building_uuid": "optional existing UUID", "source_image": "original silhouette source path", "source_sha256": "SHA-256 of source bytes", "source_width_px": "positive integer", "source_height_px": "positive integer", "source_mask": "exact silhouette mask path", "source_mask_sha256": "SHA-256", "source_provenance": "attachment/source identifier, attribution and extraction method", "is_synthetic": "true", "disclosure": "required disclosure text"}
+    },
+    "floors.csv": {
+      "primary_key": ["floor_id"],
+      "unique": [["building_id", "floor"]],
+      "foreign_keys": {"building_id": "buildings.csv.building_id"},
+      "columns": {"floor_id": "string", "building_id": "string", "floor": "integer enum 0,1,2,3", "name": "exactly Floor 0, Floor 1, Floor 2, or Floor 3", "image_path": "one rendered floor image", "image_sha256": "SHA-256", "image_width_px": "must equal original canvas width", "image_height_px": "must equal original canvas height", "spec_path": "spec JSON path", "spec_sha256": "SHA-256", "is_synthetic": "true", "disclosure": "required disclosure text"}
+    },
+    "rooms.csv": {
+      "primary_key": ["room_id"],
+      "unique": [["floor_id", "number"]],
+      "foreign_keys": {"floor_id": "floors.csv.floor_id"},
+      "columns": {"room_id": "string", "floor_id": "string", "number": "exact visible label string", "type": "invented demo use, e.g. room, classroom, office, stairs, elevator", "geometry_json": "{rect:[x0,y0,x1,y1]} OR {polygon:[[x,y],...]}", "label_x": "normalized number", "label_y": "normalized number", "door_x": "normalized number", "door_y": "normalized number", "door_side": "N,S,E,W", "core_id": "required for a stair/elevator repeated across floors", "is_synthetic": "true"}
+    },
+    "corridors.csv": {
+      "status": "recommended companion table; do not treat corridors as real rooms",
+      "primary_key": ["corridor_id"],
+      "foreign_keys": {"floor_id": "floors.csv.floor_id"},
+      "columns": {"corridor_id": "string", "floor_id": "string", "number": "exact visible corridor label such as 100C1", "polygon_json": "normalized polygon", "label_x": "normalized number", "label_y": "normalized number", "is_synthetic": "true"}
+    }
+  },
+  "spec_contract": {
+    "root_required": ["building_id", "building_name", "source_image", "floors"],
+    "floor_required": ["floor", "name", "spaces", "corridors"],
+    "space_required": ["number", "type", "rect OR polygon", "label", "door"],
+    "corridor_required": ["number", "polygon", "label"],
+    "door": "[x,y,side], side is N/S/E/W",
+    "optional_root": ["source_mask", "source_mask_channel", "source_mask_threshold", "source_provenance", "is_synthetic", "disclosure"],
+    "optional_space": ["room_id", "core_id"],
+    "floor_naming": "Exactly four floors with integer indices 0..3; recommend name='Floor '+index. No basement/ground/first-floor interpretation is implied."
+  },
+  "coordinates": {
+    "canvas": "Original uncropped, unrotated source image canvas, including all margins; top-left origin, x right, y down.",
+    "range": "Inclusive 0..1000 on both axes, independently normalized. Original canvas aspect ratio must be preserved in output images.",
+    "mapping": "pixel_x=x/1000*(width-1); pixel_y=y/1000*(height-1). Raster checks round to nearest pixel.",
+    "geometry": "A simple, non-self-intersecting polygon or positive-area axis-aligned rect. Labels must lie in their own geometry. Doors must lie on their own boundary and inside the footprint. Shared walls are allowed; overlapping room interiors are not.",
+    "mask": "Exact binary silhouette supplied by extraction, with nonzero pixels inside. Default reads luminance (white inside); transparent cutouts may explicitly set source_mask_channel='alpha'. Never infer footprint from reference floorplan colors. Mask and original canvas dimensions must match.",
+    "raster_tolerance": "One pixel of room boundary is excluded for interior overlap checks. Corridor union uses four-neighbor connectivity after footprint clipping; gaps are reported. Footprint uncovered fraction counts mask pixels covered by neither rooms nor corridors. Label checks test anchor points, not font extents."
+  },
+  "image_relationships": {
+    "rule": "Each floor row identifies exactly one rendered image and its spec floor. Every room/corridor row corresponds to exactly one visible label equal to number on that image; no free-floating extra room labels.",
+    "render": "Navy filled interiors, fine pale blue/white walls, white labels, cyan stairs. Clip all geometry and labels to the exact source mask. Labels clipped away indicate failed data, not permission to omit them.",
+    "disclosure_placement": "Store disclosure in metadata and show it next to the floor selector/image in the consuming UI. Do not add room-use, capacity, accessibility, egress or real-campus-location claims from invented geometry.",
+    "provenance": "Keep silhouette source and style reference sources separate. The four attached floorplan photographs are style references, not evidence that invented rooms exist. Retain source filename, SHA-256, original canvas size, mask hash, extraction method, spec hash, generator version and render hash."
+  },
+  "validation": {
+    "command": "python database/generated_floor_plans/validate_specs.py",
+    "output": "review/spec_validation.json (only output; never edits specs)",
+    "checks": ["Globally unique building/floor/room IDs", "Exactly four floors 0..3", "String labels with no duplicates per floor", "Finite coordinates in 0..1000", "Nonzero room geometry and simple polygons", "Label anchors in their own geometry", "Doors on room boundary with N/S/E/W side", "No overlap between room interiors", "Room labels/doors inside exact supplied mask", "Stable stair/elevator core centers and extents across floors", "Corridor union connectivity and room-door access", "Uncovered footprint pixel count and fraction"],
+    "missing_mask": "Report exact-footprint checks as skipped with a warning; do not claim they passed.",
+    "limitations": "Raster checks are finite-resolution evidence, not a navigation or life-safety certification. Rendered label text equality and image hashes require a later export/render audit."
+  }
+}

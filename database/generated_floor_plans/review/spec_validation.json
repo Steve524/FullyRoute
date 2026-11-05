@@ -1,0 +1,1382 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-05T22:08:51.455553+00:00",
+  "status": "passed_with_warnings",
+  "spec_count": 5,
+  "errors": 0,
+  "warnings": 166,
+  "methodology": {
+    "coordinates": "original canvas; 0..1000 inclusive",
+    "overlap": "one-pixel boundary excluded from both rooms",
+    "connectivity": "four-neighbor corridor union, clipped to source mask when available",
+    "uncovered": "footprint minus union of room and corridor polygons",
+    "mask_threshold": "nonzero luminance unless explicitly configured",
+    "core_tolerance": 1.0,
+    "limitations": "Anchor checks do not validate rendered font extents; finite raster resolution can miss subpixel gaps/overlaps."
+  },
+  "buildings": [
+    {
+      "building_id": "computer_science",
+      "spec_path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\specs\\computer_science.json",
+      "spec_sha256": "41124735587800a11289048fdd35a9dbdc42efabba780156f4d9725740597382",
+      "mask": {
+        "path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\masks\\computer_science.png",
+        "sha256": "2870743a65fbffcb75c27ff2aa31fd05192c1a1cd6bcfd10c34904f38ec14402",
+        "width": 174,
+        "height": 221
+      },
+      "floors": [
+        {
+          "floor": 0,
+          "floor_id": "computer_science:f0",
+          "geometry_count": 21,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            2728
+          ],
+          "footprint_pixels": 13382,
+          "uncovered_footprint_pixels": 17,
+          "uncovered_footprint_fraction": 0.0012703631744133911,
+          "mask_checks": "performed",
+          "raster_width": 174,
+          "raster_height": 221
+        },
+        {
+          "floor": 1,
+          "floor_id": "computer_science:f1",
+          "geometry_count": 24,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            2728
+          ],
+          "footprint_pixels": 13382,
+          "uncovered_footprint_pixels": 17,
+          "uncovered_footprint_fraction": 0.0012703631744133911,
+          "mask_checks": "performed",
+          "raster_width": 174,
+          "raster_height": 221
+        },
+        {
+          "floor": 2,
+          "floor_id": "computer_science:f2",
+          "geometry_count": 20,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            3108
+          ],
+          "footprint_pixels": 13382,
+          "uncovered_footprint_pixels": 17,
+          "uncovered_footprint_fraction": 0.0012703631744133911,
+          "mask_checks": "performed",
+          "raster_width": 174,
+          "raster_height": 221
+        },
+        {
+          "floor": 3,
+          "floor_id": "computer_science:f3",
+          "geometry_count": 36,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            3498
+          ],
+          "footprint_pixels": 13382,
+          "uncovered_footprint_pixels": 17,
+          "uncovered_footprint_fraction": 0.0012703631744133911,
+          "mask_checks": "performed",
+          "raster_width": 174,
+          "raster_height": 221
+        }
+      ]
+    },
+    {
+      "building_id": "education_classroom",
+      "spec_path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\specs\\education_classroom.json",
+      "spec_sha256": "d6af491dbd15d84b5d8362af09e763c85ae77bc28a4e2b5211f8faa632d4dcd0",
+      "mask": {
+        "path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\masks\\education_classroom.png",
+        "sha256": "393f5f54333db724c56a9dbb03608a13dbec8405e4db789f5bf9ac1ef2d4b4de",
+        "width": 256,
+        "height": 250
+      },
+      "floors": [
+        {
+          "floor": 0,
+          "floor_id": "education_classroom:f0",
+          "geometry_count": 26,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            10011
+          ],
+          "footprint_pixels": 37369,
+          "uncovered_footprint_pixels": 396,
+          "uncovered_footprint_fraction": 0.010597018919425192,
+          "mask_checks": "performed",
+          "raster_width": 256,
+          "raster_height": 250
+        },
+        {
+          "floor": 1,
+          "floor_id": "education_classroom:f1",
+          "geometry_count": 29,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            10011
+          ],
+          "footprint_pixels": 37369,
+          "uncovered_footprint_pixels": 396,
+          "uncovered_footprint_fraction": 0.010597018919425192,
+          "mask_checks": "performed",
+          "raster_width": 256,
+          "raster_height": 250
+        },
+        {
+          "floor": 2,
+          "floor_id": "education_classroom:f2",
+          "geometry_count": 23,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            10011
+          ],
+          "footprint_pixels": 37369,
+          "uncovered_footprint_pixels": 396,
+          "uncovered_footprint_fraction": 0.010597018919425192,
+          "mask_checks": "performed",
+          "raster_width": 256,
+          "raster_height": 250
+        },
+        {
+          "floor": 3,
+          "floor_id": "education_classroom:f3",
+          "geometry_count": 44,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            10011
+          ],
+          "footprint_pixels": 37369,
+          "uncovered_footprint_pixels": 396,
+          "uncovered_footprint_fraction": 0.010597018919425192,
+          "mask_checks": "performed",
+          "raster_width": 256,
+          "raster_height": 250
+        }
+      ]
+    },
+    {
+      "building_id": "engineering",
+      "spec_path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\specs\\engineering.json",
+      "spec_sha256": "991dd000b305a11354e34008aeea97fb28dc7c8fbb7cc46b83e2aab0d2aa25f3",
+      "mask": {
+        "path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\masks\\engineering.png",
+        "sha256": "5c667bf5b023475a0859bd2c6ac5b6fff8425a42c18958182930251b30a3c9aa",
+        "width": 114,
+        "height": 219
+      },
+      "floors": [
+        {
+          "floor": 0,
+          "floor_id": "engineering:f0",
+          "geometry_count": 20,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            1320
+          ],
+          "footprint_pixels": 9140,
+          "uncovered_footprint_pixels": 196,
+          "uncovered_footprint_fraction": 0.021444201312910284,
+          "mask_checks": "performed",
+          "raster_width": 114,
+          "raster_height": 219
+        },
+        {
+          "floor": 1,
+          "floor_id": "engineering:f1",
+          "geometry_count": 22,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            1320
+          ],
+          "footprint_pixels": 9140,
+          "uncovered_footprint_pixels": 196,
+          "uncovered_footprint_fraction": 0.021444201312910284,
+          "mask_checks": "performed",
+          "raster_width": 114,
+          "raster_height": 219
+        },
+        {
+          "floor": 2,
+          "floor_id": "engineering:f2",
+          "geometry_count": 17,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            1320
+          ],
+          "footprint_pixels": 9140,
+          "uncovered_footprint_pixels": 196,
+          "uncovered_footprint_fraction": 0.021444201312910284,
+          "mask_checks": "performed",
+          "raster_width": 114,
+          "raster_height": 219
+        },
+        {
+          "floor": 3,
+          "floor_id": "engineering:f3",
+          "geometry_count": 34,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            1320
+          ],
+          "footprint_pixels": 9140,
+          "uncovered_footprint_pixels": 196,
+          "uncovered_footprint_fraction": 0.021444201312910284,
+          "mask_checks": "performed",
+          "raster_width": 114,
+          "raster_height": 219
+        }
+      ]
+    },
+    {
+      "building_id": "humanities",
+      "spec_path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\specs\\humanities.json",
+      "spec_sha256": "99f82b8e9a6369eb24f9e4a737f2cbba7536f494f8096fb2fa468f66c8dc22b3",
+      "mask": {
+        "path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\masks\\humanities.png",
+        "sha256": "80f0c364cf4e50cf578c3363a9100508d4d793adaf9c30bcfe213f07133eb85e",
+        "width": 495,
+        "height": 308
+      },
+      "floors": [
+        {
+          "floor": 0,
+          "floor_id": "humanities:f0",
+          "geometry_count": 20,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            17321
+          ],
+          "footprint_pixels": 91174,
+          "uncovered_footprint_pixels": 463,
+          "uncovered_footprint_fraction": 0.005078202119025161,
+          "mask_checks": "performed",
+          "raster_width": 495,
+          "raster_height": 308
+        },
+        {
+          "floor": 1,
+          "floor_id": "humanities:f1",
+          "geometry_count": 24,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            17321
+          ],
+          "footprint_pixels": 91174,
+          "uncovered_footprint_pixels": 463,
+          "uncovered_footprint_fraction": 0.005078202119025161,
+          "mask_checks": "performed",
+          "raster_width": 495,
+          "raster_height": 308
+        },
+        {
+          "floor": 2,
+          "floor_id": "humanities:f2",
+          "geometry_count": 17,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            17321
+          ],
+          "footprint_pixels": 91174,
+          "uncovered_footprint_pixels": 463,
+          "uncovered_footprint_fraction": 0.005078202119025161,
+          "mask_checks": "performed",
+          "raster_width": 495,
+          "raster_height": 308
+        },
+        {
+          "floor": 3,
+          "floor_id": "humanities:f3",
+          "geometry_count": 33,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            17321
+          ],
+          "footprint_pixels": 91174,
+          "uncovered_footprint_pixels": 463,
+          "uncovered_footprint_fraction": 0.005078202119025161,
+          "mask_checks": "performed",
+          "raster_width": 495,
+          "raster_height": 308
+        }
+      ]
+    },
+    {
+      "building_id": "mccarthy_hall",
+      "spec_path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\specs\\mccarthy_hall.json",
+      "spec_sha256": "a28bfecc00b55cb5168be20332c3439ee8055278818cdef85e7c7479ff61e703",
+      "mask": {
+        "path": "C:\\Users\\sortiz\\.t3\\worktrees\\FullyRoute\\t3-1a5ce54e\\database\\generated_floor_plans\\masks\\mccarthy_hall.png",
+        "sha256": "6764ae87b08642e5994a19a07f961b32645555f3096d964f5a4938865aca4a6e",
+        "width": 1024,
+        "height": 548
+      },
+      "floors": [
+        {
+          "floor": 0,
+          "floor_id": "mccarthy_hall:f0",
+          "geometry_count": 27,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            82441
+          ],
+          "footprint_pixels": 325030,
+          "uncovered_footprint_pixels": 324,
+          "uncovered_footprint_fraction": 0.0009968310617481464,
+          "mask_checks": "performed",
+          "raster_width": 1024,
+          "raster_height": 548
+        },
+        {
+          "floor": 1,
+          "floor_id": "mccarthy_hall:f1",
+          "geometry_count": 32,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            82441
+          ],
+          "footprint_pixels": 325030,
+          "uncovered_footprint_pixels": 324,
+          "uncovered_footprint_fraction": 0.0009968310617481464,
+          "mask_checks": "performed",
+          "raster_width": 1024,
+          "raster_height": 548
+        },
+        {
+          "floor": 2,
+          "floor_id": "mccarthy_hall:f2",
+          "geometry_count": 19,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            82441
+          ],
+          "footprint_pixels": 325030,
+          "uncovered_footprint_pixels": 324,
+          "uncovered_footprint_fraction": 0.0009968310617481464,
+          "mask_checks": "performed",
+          "raster_width": 1024,
+          "raster_height": 548
+        },
+        {
+          "floor": 3,
+          "floor_id": "mccarthy_hall:f3",
+          "geometry_count": 48,
+          "corridor_components": 1,
+          "corridor_component_pixels": [
+            82441
+          ],
+          "footprint_pixels": 325030,
+          "uncovered_footprint_pixels": 324,
+          "uncovered_footprint_fraction": 0.0009968310617481464,
+          "mask_checks": "performed",
+          "raster_width": 1024,
+          "raster_height": 548
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[0]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[4]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[5]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[7]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[9]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[10]",
+      "message": "26 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[11]",
+      "message": "25 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[12]",
+      "message": "25 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/spaces[13]",
+      "message": "25 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/corridors[1]",
+      "message": "9 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:0/corridors[2]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[0]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[4]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[5]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[7]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[9]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[10]",
+      "message": "19 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[11]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[12]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[13]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/spaces[14]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/corridors[1]",
+      "message": "9 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:1/corridors[2]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[0]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[4]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[5]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[7]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[9]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[10]",
+      "message": "34 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[11]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[12]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/spaces[13]",
+      "message": "34 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/corridors[1]",
+      "message": "9 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/corridors[2]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:2/corridors[3]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[0]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[4]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[5]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[7]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[9]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[10]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[11]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[12]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[13]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[14]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[17]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[18]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/spaces[19]",
+      "message": "12 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/corridors[1]",
+      "message": "9 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/corridors[2]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "computer_science/floor:3/corridors[3]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[2]",
+      "message": "91 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[3]",
+      "message": "30 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[4]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[6]",
+      "message": "98 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[7]",
+      "message": "132 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/spaces[21]",
+      "message": "130 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/corridors[0]",
+      "message": "49 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:0/corridors[2]",
+      "message": "6 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[2]",
+      "message": "91 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[3]",
+      "message": "30 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[4]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[6]",
+      "message": "98 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[7]",
+      "message": "132 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/spaces[24]",
+      "message": "130 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/corridors[0]",
+      "message": "49 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:1/corridors[2]",
+      "message": "6 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/spaces[2]",
+      "message": "91 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/spaces[3]",
+      "message": "60 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/spaces[4]",
+      "message": "98 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/spaces[5]",
+      "message": "132 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/spaces[18]",
+      "message": "130 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/corridors[0]",
+      "message": "49 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:2/corridors[2]",
+      "message": "6 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/spaces[2]",
+      "message": "91 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/spaces[4]",
+      "message": "60 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/spaces[9]",
+      "message": "98 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/spaces[10]",
+      "message": "132 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/spaces[38]",
+      "message": "130 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/corridors[0]",
+      "message": "49 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "education_classroom/floor:3/corridors[2]",
+      "message": "6 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "engineering/floor:0/spaces[14]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "engineering/floor:1/spaces[16]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "engineering/floor:2/spaces[11]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "engineering/floor:3/spaces[26]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:0/spaces[1]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:0/spaces[3]",
+      "message": "26 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:0/spaces[4]",
+      "message": "16 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:0/spaces[5]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:0/corridors[0]",
+      "message": "23 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:1/spaces[1]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:1/spaces[3]",
+      "message": "26 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:1/spaces[4]",
+      "message": "16 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:1/spaces[5]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:1/corridors[0]",
+      "message": "23 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:2/spaces[1]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:2/spaces[3]",
+      "message": "26 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:2/spaces[4]",
+      "message": "16 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:2/spaces[5]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:2/corridors[0]",
+      "message": "23 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:3/spaces[1]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:3/spaces[3]",
+      "message": "26 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:3/spaces[4]",
+      "message": "16 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:3/spaces[5]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "humanities/floor:3/corridors[0]",
+      "message": "23 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[0]",
+      "message": "125 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[4]",
+      "message": "28 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[5]",
+      "message": "40 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[6]",
+      "message": "47 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[7]",
+      "message": "34 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[14]",
+      "message": "25 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[15]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[16]",
+      "message": "6 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[17]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[18]",
+      "message": "69 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[19]",
+      "message": "67 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[20]",
+      "message": "69 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/spaces[21]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:0/corridors[1]",
+      "message": "37 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[0]",
+      "message": "125 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[4]",
+      "message": "13 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[5]",
+      "message": "44 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[6]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[7]",
+      "message": "39 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[8]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[17]",
+      "message": "16 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[18]",
+      "message": "20 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[19]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[20]",
+      "message": "3 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[21]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[22]",
+      "message": "64 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[23]",
+      "message": "69 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[24]",
+      "message": "72 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/spaces[26]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:1/corridors[1]",
+      "message": "37 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[0]",
+      "message": "125 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[4]",
+      "message": "117 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[5]",
+      "message": "31 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[9]",
+      "message": "39 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[10]",
+      "message": "23 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[11]",
+      "message": "203 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/spaces[13]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:2/corridors[1]",
+      "message": "37 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[0]",
+      "message": "125 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[4]",
+      "message": "1 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[5]",
+      "message": "24 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[6]",
+      "message": "29 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[7]",
+      "message": "14 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[8]",
+      "message": "18 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[9]",
+      "message": "30 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[10]",
+      "message": "5 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[11]",
+      "message": "30 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[26]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[27]",
+      "message": "21 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[28]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[30]",
+      "message": "4 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[31]",
+      "message": "2 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[32]",
+      "message": "10 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[33]",
+      "message": "11 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[34]",
+      "message": "41 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[35]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[36]",
+      "message": "41 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[37]",
+      "message": "42 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[38]",
+      "message": "41 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/spaces[41]",
+      "message": "36 geometry pixels will be clipped"
+    },
+    {
+      "severity": "warning",
+      "code": "geometry_outside_mask",
+      "location": "mccarthy_hall/floor:3/corridors[1]",
+      "message": "37 geometry pixels will be clipped"
+    }
+  ]
+}

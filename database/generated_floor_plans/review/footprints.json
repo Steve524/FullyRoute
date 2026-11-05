@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "navy_threshold": {
+    "color_space": "RGB, 8-bit channels",
+    "expression": "R <= 135 and G <= 155 and B <= 185 and B-R >= 18 and G-R >= 4",
+    "reason": "Includes navy edge antialiasing; excludes neutral text/checkerboard and green patches."
+  },
+  "mask_format": "PNG, mode L, original source resolution; outside 0, inside 255",
+  "bbox_convention": "[left, top, right, bottom], right and bottom exclusive",
+  "method": "Keep largest 4-connected navy component; flood-fill exterior from padded image border; fill all enclosed non-navy holes. No dilation, erosion, smoothing, or resizing.",
+  "limitations": [
+    "Binary raster edges use the stated threshold; antialiased source pixels have no unique binary boundary or recoverable vector outline.",
+    "All enclosed holes are filled, including white lettering. These source silhouettes do not establish real interior courtyards or floor layouts.",
+    "Masks reproduce supplied illustrations, not verified building surveys or real campus floor plans."
+  ],
+  "buildings": [
+    {
+      "id": "mccarthy_hall",
+      "name": "McCarthy Hall",
+      "source": "C:\\Users\\sortiz\\.t3\\userdata\\attachments\\c421cf06-02b7-426e-96c1-e1de5d82569d-3c7bfdac-b7b1-46de-9564-7ca8f2ef03ee.png",
+      "reference": "references/mccarthy_hall.png",
+      "mask": "masks/mccarthy_hall.png",
+      "source_size": [
+        1024,
+        548
+      ],
+      "threshold_pixel_count": 315978,
+      "navy_component_count": 9,
+      "discarded_component_pixel_count": 155,
+      "navy_building_pixel_count": 315823,
+      "holes_filled": 54,
+      "hole_pixels_filled": 9207,
+      "mask_pixel_count": 325030,
+      "bbox": [
+        61,
+        31,
+        980,
+        496
+      ],
+      "limitations": [
+        "Thin bottom-right horizontal spur is connected navy source artwork and is preserved. It appears to be a possible drawing/export artifact; its architectural meaning cannot be verified."
+      ]
+    },
+    {
+      "id": "education_classroom",
+      "name": "Education Classroom",
+      "source": "C:\\Users\\sortiz\\.t3\\userdata\\attachments\\c421cf06-02b7-426e-96c1-e1de5d82569d-3182101c-2a7d-4dec-ab7b-554645b4d7d4.png",
+      "reference": "references/education_classroom.png",
+      "mask": "masks/education_classroom.png",
+      "source_size": [
+        256,
+        250
+      ],
+      "threshold_pixel_count": 33778,
+      "navy_component_count": 8,
+      "discarded_component_pixel_count": 416,
+      "navy_building_pixel_count": 33362,
+      "holes_filled": 18,
+      "hole_pixels_filled": 4007,
+      "mask_pixel_count": 37369,
+      "bbox": [
+        13,
+        6,
+        245,
+        248
+      ],
+      "limitations": [
+        "Exterior-connected slots, stepped lower edge, and irregular upper outline are retained; green patch is excluded."
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "source": "C:\\Users\\sortiz\\.t3\\userdata\\attachments\\c421cf06-02b7-426e-96c1-e1de5d82569d-5737f4b8-d81e-4859-a14e-ab23bc13a3ad.png",
+      "reference": "references/engineering.png",
+      "mask": "masks/engineering.png",
+      "source_size": [
+        114,
+        219
+      ],
+      "threshold_pixel_count": 9140,
+      "navy_component_count": 1,
+      "discarded_component_pixel_count": 0,
+      "navy_building_pixel_count": 9140,
+      "holes_filled": 0,
+      "hole_pixels_filled": 0,
+      "mask_pixel_count": 9140,
+      "bbox": [
+        35,
+        43,
+        104,
+        176
+      ],
+      "limitations": [
+        "Small right-edge step is retained at original pixel coordinates."
+      ]
+    },
+    {
+      "id": "computer_science",
+      "name": "Computer Science",
+      "source": "C:\\Users\\sortiz\\.t3\\userdata\\attachments\\c421cf06-02b7-426e-96c1-e1de5d82569d-04b618eb-7c02-4294-ba88-218d317cfea0.png",
+      "reference": "references/computer_science.png",
+      "mask": "masks/computer_science.png",
+      "source_size": [
+        174,
+        221
+      ],
+      "threshold_pixel_count": 13382,
+      "navy_component_count": 1,
+      "discarded_component_pixel_count": 0,
+      "navy_building_pixel_count": 13382,
+      "holes_filled": 0,
+      "hole_pixels_filled": 0,
+      "mask_pixel_count": 13382,
+      "bbox": [
+        80,
+        32,
+        168,
+        185
+      ],
+      "limitations": [
+        "Exterior-connected top and bottom notches are retained, not filled as lettering holes."
+      ]
+    },
+    {
+      "id": "humanities",
+      "name": "Humanities",
+      "source": "C:\\Users\\sortiz\\.t3\\userdata\\attachments\\c421cf06-02b7-426e-96c1-e1de5d82569d-559fc5b3-0637-4ebd-8f00-609dbc499a4e.png",
+      "reference": "references/humanities.png",
+      "mask": "masks/humanities.png",
+      "source_size": [
+        495,
+        308
+      ],
+      "threshold_pixel_count": 83487,
+      "navy_component_count": 2,
+      "discarded_component_pixel_count": 63,
+      "navy_building_pixel_count": 83424,
+      "holes_filled": 10,
+      "hole_pixels_filled": 7750,
+      "mask_pixel_count": 91174,
+      "bbox": [
+        19,
+        18,
+        491,
+        301
+      ],
+      "limitations": [
+        "Left recess and right-edge steps are retained; detached green patches are excluded."
+      ]
+    }
+  ]
+}

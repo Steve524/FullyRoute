@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "purpose": "Style guidance for invented demo floorplans; not verified campus plans.",
+  "inspection": {
+    "method": "All four original images visually inspected with view_image; dominant raster colors sampled to distinguish photographed blue cast from intended diagram palette.",
+    "reference_order": [
+      {"floor": 0, "file_suffix": "946201ee-125f-481e-9665-7b6186dda8d7.png", "size_px": [763, 648]},
+      {"floor": 1, "file_suffix": "88c5bb90-6be1-4891-a9de-e13605b60688.png", "size_px": [695, 643]},
+      {"floor": 2, "file_suffix": "7c936621-77ff-481e-afaa-a095ed6555d2.png", "size_px": [690, 645]},
+      {"floor": 3, "file_suffix": "bd4499f3-1268-46ef-8883-a0380c0a12ad.png", "size_px": [760, 662]}
+    ],
+    "measurement_caveat": "Stroke and font sizes are practical visual estimates; palette below is a clean rendering target, not exact photographic color recovery."
+  },
+  "palette": {
+    "interior_fill": "#061773",
+    "corridor_fill": "#061773",
+    "wall_stroke": "#C2DFF4",
+    "detail_stroke": "#A9D1F1",
+    "label_fill": "#FFFFFF",
+    "stair_accent": "#25B9F1",
+    "outside_fill": "#FFFFFF",
+    "outside_alpha": 0,
+    "notes": "Use one flat navy fill across rooms and circulation. Pale blue walls and nearly white labels provide contrast. Photographs contain deeper saturated blues, lavender surroundings, light streaks, and moire; do not reproduce those artifacts."
+  },
+  "rendering": {
+    "units": "Pixels at a reference canvas approximately 750 px wide; scale linearly with output width.",
+    "reference_canvas_width_px": 750,
+    "wall_width_px": 2.0,
+    "outer_wall_width_px": 2.8,
+    "detail_width_px": 1.0,
+    "door_width_px": 1.4,
+    "stair_tread_width_px": 0.8,
+    "line_cap": "butt",
+    "line_join": "miter",
+    "antialias_supersampling": 3,
+    "effects": "Flat diagram; no shadows, gradients, textures, perspective, or decorative furniture.",
+    "silhouette_rule": "Parent supplies the exact original-source silhouette mask. Clip every fill, wall, door, symbol, and label to that mask; do not infer or redraw the footprint from these style references.",
+    "boundary_rule": "Draw the perimeter inside the mask so the outside extent remains exact. Interior walls may meet the perimeter but must not create protrusions."
+  },
+  "typography": {
+    "family": "Arial, Helvetica, sans-serif",
+    "weight": 600,
+    "room_size_px": 13,
+    "corridor_size_px": 14,
+    "service_size_px": 11,
+    "dense_room_min_size_px": 9,
+    "large_plan_room_size_px": 17,
+    "alignment": "Centered within each room or corridor segment, usually horizontal; a few narrow service labels may be vertical if necessary.",
+    "clearance_from_wall_px": 3,
+    "label_background": "None; reserve navy clearance around text and avoid wall crossings.",
+    "notes": "Compact bold or semibold white sans-serif numerals. Labels are functional and numerous; no titles inside the footprint. Floor 3 reference has visibly larger labels than the denser lower floors."
+  },
+  "numbering": {
+    "room_floor_0_examples": ["9", "11", "24A", "25B", "45C"],
+    "room_other_floors_examples": ["101", "125A", "130K", "207D", "303", "379B"],
+    "room_rule": "Floor 0 uses unpadded one- or two-digit room numbers. Floors 1, 2, and 3 use the floor digit followed by two room digits. Append an uppercase letter for related subdivisions; keep labels unique per floor.",
+    "corridor_pattern": "{floor}00C{index}",
+    "corridor_examples": ["000C1", "100C1", "200C1", "300C4"],
+    "stair_pattern": "{floor}00S{index}",
+    "stair_examples": ["000S1", "100S2", "200S4", "300S4"],
+    "elevator_pattern": "{floor}00E{index}",
+    "elevator_examples": ["100E1", "300E2"],
+    "notes": "Assign corridor numbers by connected segment and stairs by persistent vertical core. Floor 2 reference has very few visible circulation labels; use them sparingly in its open areas."
+  },
+  "doors": {
+    "opening_width_px_range": [10, 17],
+    "swing_degrees": 90,
+    "symbol": "Break the partition at the opening; draw one thin hinged leaf and one quarter-circle swing arc in the wall color.",
+    "placement": "Open rooms onto adjacent circulation. Mix left and right hinges. Put double opposing swing leaves at major entrances or wide rooms.",
+    "density": "Typically one door per room; repeat doors rhythmically on corridor-facing partitions, not on every wall.",
+    "notes": "At this scale some doors read as a small rounded notch. Preserve clean openings and arcs without making the symbol heavier than walls."
+  },
+  "stairs_and_services": {
+    "stair_symbol": "Small rectangular core with thin parallel pale blue treads, sometimes two flights around a dark landing; add a bright cyan directional arrow or block on the flight.",
+    "tread_spacing_px_range": [2, 3],
+    "core_width_px_range": [22, 45],
+    "stair_label_placement": "Inside the core or immediately beside it, without covering treads where space allows.",
+    "secondary_symbols": "Occasional narrow rectangles with diagonal X braces for shafts or service voids; tiny lift cores beside circulation.",
+    "optional_reference_markers": "References show pink circular lift icons and small yellow restroom/accessibility pictograms. These are secondary; avoid making them a dominant palette element.",
+    "omit": ["Red location pin", "YOU ARE HERE text", "Photographic glare", "Screen moire", "Reflections"]
+  },
+  "spatial_composition": {
+    "shared": "Mostly orthogonal partitions, straight corridor spines with short branches, repeated perimeter rooms, compact service clusters, and a few larger rooms. Preserve each target building's exact silhouette rather than transferring the reference building outline.",
+    "floor_0": {
+      "density": "High, with mixed room sizes.",
+      "organization": "Branching circulation joins several wings; large room blocks alternate with clusters of small letter-suffixed support rooms. Multiple stairs sit at peripheral ends and one sits nearer the center.",
+      "visual_character": "Irregular room rhythm, many corridor segment labels, several broad rooms, tightly packed services near the main circulation junction."
+    },
+    "floor_1": {
+      "density": "Highest of the references.",
+      "organization": "Connected corridor network with repeated small perimeter offices and larger central rooms. Fine subdivisions form dense service or office clusters; outer wings retain some larger room blocks.",
+      "visual_character": "Many letter suffixes, frequent door arcs, narrow spaces, strong circulation continuity."
+    },
+    "floor_2": {
+      "density": "Low, with most of the interior left open.",
+      "organization": "A small central room cluster and scattered isolated rooms sit within broad navy open areas. A few peripheral stairs and service shafts anchor the layout.",
+      "visual_character": "Sparse partitions and labels, large uninterrupted navy fields, limited enclosed rooms. Do not densely tile this floor."
+    },
+    "floor_3": {
+      "density": "Medium to high, regular rhythm.",
+      "organization": "Long horizontal corridors connect side circulation spines. Rows of similarly sized rectangular rooms flank the corridors, with a few larger central rooms and stair cores near edges and junctions.",
+      "visual_character": "Repeated room widths, frequent inward door swings, larger readable numerals, a small number of clearly labeled corridor runs."
+    }
+  },
+  "review_checks": [
+    "All geometry remains inside the exact parent-provided silhouette mask.",
+    "Rooms and corridors share a flat navy fill with thin pale boundaries.",
+    "White labels remain readable and do not collide with partitions or door arcs.",
+    "Room numbers match floor 0, 1, 2, or 3; corridor and stair identifiers follow the corresponding floor prefix.",
+    "Stair treads are visible and cyan accents identify stairs consistently.",
+    "Floor 2 remains distinctly more open than floors 0, 1, and 3.",
+    "Demo status is recorded in metadata or captions outside the floorplan artwork."
+  ]
+}
