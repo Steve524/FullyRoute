@@ -7,7 +7,9 @@ import type { Building, LatLng, RegionData, RegionWay, TravelMode } from './type
 // (region.json, imported by scripts/import-osm.mjs). Everything runs locally.
 
 export const region = regionData as RegionData
-export const nearbyPlaces = nearbyData as Building[]
+// Nearby is limited to places to study, print, eat and run student errands.
+const NEARBY_TYPES = new Set(['library', 'print', 'dining', 'grocery', 'pharmacy', 'health', 'bank', 'atm', 'post', 'park', 'fitness', 'transit', 'bike'])
+export const nearbyPlaces = (nearbyData as Building[]).filter((p) => p.poiType && NEARBY_TYPES.has(p.poiType))
 
 const WALK_MPS = 1.35 // ~3 mph, matches campus walk times
 const DRIVE_TURN_S = 20

@@ -153,6 +153,13 @@ export default function RouteSteps({ route, startName, destName, shareUrl, onOpe
         </li>
       </ol>
 
+      {route.throughBuildings && (
+        <p className="mt-3 rounded-lg bg-titan/10 px-3 py-2 text-xs text-ink-soft">
+          Cuts through {route.throughBuildings.join(' and ')} between doors. Buildings may be closed after hours, and the indoor
+          path is a straight line, not a mapped corridor.
+        </p>
+      )}
+
       {route.stepFree && !route.stepFreeConfirmed && (
         <p className="mt-3 rounded-lg bg-navy/5 px-3 py-2 text-xs text-ink-soft">
           Avoids every barrier on record, but not yet checked for steps:{' '}

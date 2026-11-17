@@ -8,7 +8,7 @@ import type { Building } from './types'
 const campusGeo = pixelToGeo(placePin('bldg-cs')!)
 // A place a fair walk away, so the route has several streets.
 const target = nearbyPlaces
-  .filter((p) => p.poiType === 'grocery')
+  .filter((p) => p.poiType === 'dining')
   .sort((a, b) => distanceM(campusGeo, b.position.geo!) - distanceM(campusGeo, a.position.geo!))[0]
 
 describe('nearby places', () => {

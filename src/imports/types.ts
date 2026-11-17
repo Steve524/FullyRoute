@@ -39,6 +39,7 @@ export type PoiType =
   | "shopping"
   | "library"
   | "post"
+  | "print"
   | "park"
   | "fitness"
   | "other";
@@ -51,6 +52,8 @@ export type Building = {
   position: Position; // empty object when the location is unknown
   provenance: Provenance;
   poiType?: PoiType; // only for kind "poi"
+  hours?: string; // OpenStreetMap opening_hours, nearby places only
+  cafe?: boolean; // coffee shop or cafe, also listed under Study
   hostId?: string; // POI inside another place — routes use the host's doors
 };
 

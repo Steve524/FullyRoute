@@ -48,6 +48,7 @@ export default function App() {
   )
   const [showCategories, setShowCategories] = useState(false)
   const [stepFree, setStepFree] = useState(shared.accessible)
+  const [through, setThrough] = useState(false)
   // The room being routed to; always inside the destination building.
   const [room, setRoom] = useState<RoomQuery | null>(() => roomIn(shared.to, shared.room))
   const [interiorFor, setInteriorFor] = useState<string | null>(null)
@@ -117,19 +118,24 @@ export default function App() {
     setRoom(null)
     setStartId(destId)
     setDestId(startId)
-    setOutcome(outcome && startId && destId ? findRoute(destId, startId, stepFree) : null)
+    setOutcome(outcome && startId && destId ? findRoute(destId, startId, stepFree, through) : null)
+  }
+
+  const changeThrough = (next: boolean) => {
+    setThrough(next)
+    if (outcome && startId && destId && !sameBuilding) setOutcome(findRoute(startId, destId, stepFree, next))
   }
 
   const changeStepFree = (next: boolean) => {
     setStepFree(next)
-    if (outcome && startId && destId && !sameBuilding) setOutcome(findRoute(startId, destId, next))
+    if (outcome && startId && destId && !sameBuilding) setOutcome(findRoute(startId, destId, next, through))
   }
 
   // Make a building (and optionally a room in it) the destination, routing there if a start is set.
   const goTo = (buildingId: string, target: RoomQuery | null) => {
     setDestId(buildingId)
     setRoom(target)
-    setOutcome(startId && startId !== buildingId ? findRoute(startId, buildingId, stepFree) : null)
+    setOutcome(startId && startId !== buildingId ? findRoute(startId, buildingId, stepFree, through) : null)
   }
 
   // From the class list: go to the class's building, and its classroom when the room text matches it.
@@ -195,7 +201,7 @@ export default function App() {
 
   const handleGetRoute = () => {
     if (!startId || !destId || sameBuilding) return
-    setOutcome(findRoute(startId, destId, stepFree))
+    setOutcome(findRoute(startId, destId, stepFree, through))
   }
 
   return (
@@ -332,6 +338,28 @@ export default function App() {
                     <span
                       className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition-transform ${
                         stepFree ? 'translate-x-[22px]' : 'translate-x-0.5'
+                      }`}
+                    />
+                  </button>
+                </label>
+
+                <label className="flex items-center justify-between gap-3 border-t border-line pt-3">
+                  <span>
+                    <span className="block text-sm font-medium text-ink">Cut through buildings</span>
+                    <span className="block text-xs text-ink-soft">Use a building&apos;s doors as a shortcut when it saves time</span>
+                  </span>
+                  <button
+                    type="button"
+                    role="switch"
+                    aria-checked={through}
+                    onClick={() => changeThrough(!through)}
+                    className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors ${
+                      through ? 'bg-navy' : 'bg-line'
+                    }`}
+                  >
+                    <span
+                      className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition-transform ${
+                        through ? 'translate-x-[22px]' : 'translate-x-0.5'
                       }`}
                     />
                   </button>

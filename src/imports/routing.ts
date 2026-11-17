@@ -53,6 +53,23 @@ export interface RouteResult {
   stepFree?: boolean // routed with step-free constraints
   stepFreeConfirmed?: boolean // both doors surveyed accessible and paths surveyed
   stepFreeUnchecked?: StepFreeGap[] // what a step-free route still relies on unsurveyed
+  throughBuildings?: string[] // names of buildings the route cuts through
+}
+
+// Academic and service buildings with two or more doors can be crossed between them.
+// Housing is private, and athletics/landmarks are mostly open fields and plazas.
+function throughGroups(accessibleOnly: boolean) {
+  const ids: string[] = []
+  const groups: RoutePoint[][] = []
+  for (const [id, doors] of anchors) {
+    const kind = buildingById.get(id)?.kind
+    if (kind !== 'academic' && kind !== 'service') continue
+    const ok = doors.filter((a) => !accessibleOnly || a.accessible !== false)
+    if (ok.length < 2) continue
+    ids.push(id)
+    groups.push(ok.map((a) => a.point))
+  }
+  return { ids, groups }
 }
 
 export type StepFreeGap = 'start-door' | 'end-door' | 'paths'
@@ -89,6 +106,7 @@ export function findRoute(
   fromBuildingId: string,
   toBuildingId: string,
   accessibleOnly = false,
+  throughBuildings = false,
 ): RouteOutcome {
   const startNode = nodeForBuilding(fromBuildingId)
   const endNode = nodeForBuilding(toBuildingId)
@@ -112,14 +130,17 @@ export function findRoute(
     const tos = usable(endDoors)
     if (!froms.length) return { ok: false, reason: 'no-accessible-door', place: 'start' }
     if (!tos.length) return { ok: false, reason: 'no-accessible-door', place: 'end' }
+    const through = throughBuildings ? throughGroups(accessibleOnly) : { ids: [], groups: [] }
     const hit = walkPathMulti(
       froms.map((a) => a.point),
       tos.map((a) => a.point),
       accessibleOnly,
+      through.groups,
     )
-    const best = hit && { points: hit.path, from: froms[hit.from], to: tos[hit.to] }
+    const best = hit && { points: hit.path, from: froms[hit.from], to: tos[hit.to], indoor: hit.indoor }
     if (best) {
       const { from, to, points: wp } = best
+      const crossed = best.indoor.map((g) => buildingById.get(through.ids[g])?.name ?? through.ids[g])
       const head = routeSegment(from.point, wp[0])
       const tail = routeSegment(wp[wp.length - 1], to.point)
       const points = dedupe([from.point, ...head, ...wp.slice(1), ...tail])
@@ -143,6 +164,7 @@ export function findRoute(
           stepFree: accessibleOnly,
           stepFreeConfirmed: accessibleOnly && gaps.length === 0,
           stepFreeUnchecked: accessibleOnly ? gaps : undefined,
+          throughBuildings: crossed.length ? crossed : undefined,
         },
       }
     }

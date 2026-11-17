@@ -2,40 +2,38 @@ import { useEffect, useMemo, useState } from 'react'
 import BuildingPicker from './BuildingPicker'
 import { fmtDistance, fmtTotal } from './RouteSteps'
 import { CAMPUS_CENTER } from './geo'
+import { isOpenNow } from './openingHours'
 import { findAreaRoute, nearbyPlaces, region, straightLine, type AreaOutcome, type AreaTrip } from './areaRouting'
 import type { Building, LatLng, PoiType, TravelMode } from './types'
 
 // Off-campus places within two miles, with walking or driving directions from a campus building.
 
-const CATEGORIES: { label: string; types: PoiType[] }[] = [
-  { label: 'Food', types: ['dining'] },
-  { label: 'Groceries', types: ['grocery'] },
-  { label: 'Health', types: ['pharmacy', 'health'] },
-  { label: 'Banks', types: ['bank', 'atm'] },
-  { label: 'Gas & EV', types: ['fuel', 'ev'] },
-  { label: 'Shopping', types: ['shopping'] },
-  { label: 'Parks & gyms', types: ['park', 'fitness'] },
-  { label: 'Transit', types: ['transit', 'bike'] },
-  { label: 'Library & mail', types: ['library', 'post'] },
+const CATEGORIES: { label: string; match: (p: Building) => boolean }[] = [
+  { label: 'Study', match: (p) => p.poiType === 'library' || !!p.cafe },
+  { label: 'Print', match: (p) => p.poiType === 'print' },
+  { label: 'Food', match: (p) => p.poiType === 'dining' },
+  { label: 'Groceries', match: (p) => p.poiType === 'grocery' },
+  { label: 'Health', match: (p) => p.poiType === 'pharmacy' || p.poiType === 'health' },
+  { label: 'Banks & ATMs', match: (p) => p.poiType === 'bank' || p.poiType === 'atm' },
+  { label: 'Mail', match: (p) => p.poiType === 'post' },
+  { label: 'Parks & gyms', match: (p) => p.poiType === 'park' || p.poiType === 'fitness' },
+  { label: 'Transit', match: (p) => p.poiType === 'transit' || p.poiType === 'bike' },
 ]
 const TYPE_LABEL: Partial<Record<PoiType, string>> = {
   dining: 'Food',
+  library: 'Library',
+  print: 'Print',
+  atm: 'ATM',
+  bank: 'Bank',
   grocery: 'Groceries',
   pharmacy: 'Pharmacy',
   health: 'Health care',
-  bank: 'Bank',
-  atm: 'ATM',
-  fuel: 'Gas station',
-  ev: 'EV charging',
-  shopping: 'Shopping',
+  post: 'Mail & shipping',
   park: 'Park',
   fitness: 'Gym',
   transit: 'Transit',
   bike: 'Bike rental',
-  library: 'Library',
-  post: 'Mail & shipping',
 }
-
 const fetched = new Date(region.fetchedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
 
 interface NearbyPanelProps {
@@ -69,16 +67,17 @@ export default function NearbyPanel({
 }: NearbyPanelProps) {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<string | null>(null)
+  const [openOnly, setOpenOnly] = useState(false)
 
   const anchor = origin?.geo ?? CAMPUS_CENTER
   const list = useMemo(() => {
-    const types = CATEGORIES.find((c) => c.label === category)?.types
+    const cat = CATEGORIES.find((c) => c.label === category)
     const q = query.trim().toLowerCase()
     return nearbyPlaces
-      .filter((p) => p.position.geo && (!types || types.includes(p.poiType!)) && (!q || p.name.toLowerCase().includes(q)))
+      .filter((p) => p.position.geo && (!cat || cat.match(p)) && (!openOnly || isOpenNow(p.hours) === true) && (!q || p.name.toLowerCase().includes(q)))
       .map((p) => ({ place: p, ...straightLine(anchor, p.position.geo!) }))
       .sort((a, b) => a.meters - b.meters)
-  }, [anchor, category, query])
+  }, [anchor, category, query, openOnly])
 
   const selected = nearbyPlaces.find((p) => p.id === selectedId) ?? null
 
@@ -172,6 +171,16 @@ export default function NearbyPanel({
               {c.label}
             </button>
           ))}
+          <button
+            type="button"
+            aria-pressed={openOnly}
+            onClick={() => setOpenOnly((v) => !v)}
+            className={`rounded-full border px-2.5 py-1 text-xs font-medium transition ${
+              openOnly ? 'border-titan bg-titan text-white' : 'border-line text-ink hover:border-titan/40'
+            }`}
+          >
+            Open now
+          </button>
         </div>
 
         <p className="mt-3 text-xs text-ink-soft" aria-live="polite">

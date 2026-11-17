@@ -259,11 +259,12 @@ const POI = {
   },
   shop: {
     supermarket: 'grocery', convenience: 'grocery', greengrocer: 'grocery', chemist: 'pharmacy',
-    mall: 'shopping', department_store: 'shopping', books: 'shopping', stationery: 'shopping',
-    electronics: 'shopping', copyshop: 'shopping', variety_store: 'shopping', clothes: 'shopping',
+    mall: 'shopping', department_store: 'shopping', books: 'shopping', stationery: 'print',
+    electronics: 'shopping', copyshop: 'print', variety_store: 'shopping', clothes: 'shopping',
     hardware: 'shopping', mobile_phone: 'shopping', computer: 'shopping',
   },
   railway: { station: 'transit' },
+  highway: { bus_stop: 'transit' },
   leisure: { park: 'park', fitness_centre: 'fitness', sports_centre: 'fitness' },
 }
 const UNNAMED_SUFFIX = { atm: 'ATM', ev: 'EV charging' }
@@ -299,6 +300,8 @@ for (const e of poiEls) {
     name,
     kind: 'poi',
     poiType,
+    ...(t.amenity === 'cafe' || t.cuisine === 'coffee_shop' ? { cafe: true } : {}),
+    ...(t.opening_hours ? { hours: t.opening_hours } : {}),
     position: { geo: { lat, lng } },
     provenance: { source: 'imported', sourceRef: `https://www.openstreetmap.org/${e.type}/${e.id}`, verified: false },
   })

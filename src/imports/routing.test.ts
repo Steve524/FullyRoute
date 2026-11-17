@@ -9,6 +9,15 @@ const ok = (from: string, to: string, stepFree = false) => {
 }
 
 describe('findRoute', () => {
+  it('cutting through buildings is never longer and reports what it crosses', () => {
+    const plain = findRoute('lm-titan-walk', 'bldg-af', false, false)
+    const cut = findRoute('lm-titan-walk', 'bldg-af', false, true)
+    if (!plain.ok || !cut.ok) throw new Error('no route')
+    expect(cut.route.totalMeters).toBeLessThan(plain.route.totalMeters)
+    expect(cut.route.throughBuildings?.length).toBeGreaterThan(0)
+    expect(plain.route.throughBuildings).toBeUndefined()
+  })
+
   it('routes between two buildings along the walkways', () => {
     const r = ok('bldg-cs', 'bldg-pl')
     expect(r.totalMeters).toBeGreaterThan(0)

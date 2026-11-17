@@ -12,6 +12,7 @@ import { routeSegment } from './obstacles'
 
 const QUANT = 8 // px grid for merging coincident walkway vertices
 const DENSIFY = 40 // px max spacing between walkway nodes (subdivided for snapping)
+const INDOOR_FACTOR = 1.15 // indoor corridors are slower than open paths, so only cut through when it clearly helps
 const CELL = 120 // px spatial-hash cell for nearest-node lookup
 
 export const wNodes: RoutePoint[] = []
@@ -116,7 +117,9 @@ export function walkPathMulti(
   froms: RoutePoint[],
   tos: RoutePoint[],
   stepFree = false,
-): { path: RoutePoint[]; from: number; to: number } | null {
+  // Door groups, one per building: with these you can cut through a building between its doors.
+  through: RoutePoint[][] = [],
+): { path: RoutePoint[]; from: number; to: number; indoor: number[] } | null {
   const link = (p: RoutePoint, n: number) => Math.hypot(wNodes[n].x - p.x, wNodes[n].y - p.y)
   const starts = froms.map(snapToWalkway)
   const ends = tos.map(snapToWalkway)
@@ -130,9 +133,39 @@ export function walkPathMulti(
   })
   if (!endCost.size || starts.every((n) => n === -1)) return null
 
-  const dist = new Float64Array(wNodes.length).fill(Infinity)
-  const prev = new Int32Array(wNodes.length).fill(-1)
-  const origin = new Int32Array(wNodes.length).fill(-1) // start door per node
+  type Edge = { to: number; w: number; line: number; indoor?: number }
+  const N = wNodes.length
+  const extra: RoutePoint[] = [] // virtual door nodes, indexed from N
+  const extraAdj: Edge[][] = []
+  const patch = new Map<number, Edge[]>() // extra edges added onto real walkway nodes
+  through.forEach((doors, group) => {
+    const ids = doors.map((p) => {
+      const id = N + extra.length
+      extra.push(p)
+      extraAdj.push([])
+      const s = snapToWalkway(p)
+      if (s !== -1) {
+        const w = link(p, s)
+        extraAdj[id - N].push({ to: s, w, line: -1 })
+        if (!patch.has(s)) patch.set(s, [])
+        patch.get(s)!.push({ to: id, w, line: -1 })
+      }
+      return id
+    })
+    for (const a of ids)
+      for (const b of ids) {
+        if (a === b) continue
+        const pa = extra[a - N]
+        const pb = extra[b - N]
+        extraAdj[a - N].push({ to: b, w: Math.hypot(pa.x - pb.x, pa.y - pb.y) * INDOOR_FACTOR, line: -1, indoor: group })
+      }
+  })
+  const pos = (n: number) => (n < N ? wNodes[n] : extra[n - N])
+
+  const dist = new Float64Array(N + extra.length).fill(Infinity)
+  const prev = new Int32Array(N + extra.length).fill(-1)
+  const origin = new Int32Array(N + extra.length).fill(-1) // start door per node
+  const via = new Int32Array(N + extra.length).fill(-1) // building crossed to reach a node
   const heap: { n: number; d: number }[] = []
   const push = (n: number, d: number) => {
     heap.push({ n, d })
@@ -181,22 +214,29 @@ export function walkPathMulti(
     if (d >= best.total) break // nothing left can beat the best arrival
     const end = endCost.get(n)
     if (end && d + end.c < best.total) best = { total: d + end.c, node: n, door: end.door }
-    for (const e of wAdj[n]) {
-      if (stepFree && blockedLines.has(e.line)) continue
-      const nd = d + e.w
-      if (nd < dist[e.to]) {
-        dist[e.to] = nd
-        prev[e.to] = n
-        origin[e.to] = origin[n]
-        push(e.to, nd)
+    const edges: Edge[][] = n < N ? [wAdj[n], patch.get(n) ?? []] : [extraAdj[n - N]]
+    for (const list of edges)
+      for (const e of list) {
+        if (stepFree && blockedLines.has(e.line)) continue
+        const nd = d + e.w
+        if (nd < dist[e.to]) {
+          dist[e.to] = nd
+          prev[e.to] = n
+          origin[e.to] = origin[n]
+          via[e.to] = e.indoor ?? -1
+          push(e.to, nd)
+        }
       }
-    }
   }
 
   if (best.node === -1) return null
   const out: RoutePoint[] = []
-  for (let cur = best.node; cur !== -1; cur = prev[cur]) out.unshift(wNodes[cur])
-  return { path: out, from: origin[best.node], to: best.door }
+  const indoor = new Set<number>()
+  for (let cur = best.node; cur !== -1; cur = prev[cur]) {
+    out.unshift(pos(cur))
+    if (via[cur] !== -1) indoor.add(via[cur])
+  }
+  return { path: out, from: origin[best.node], to: best.door, indoor: [...indoor] }
 }
 
 // Route one leg (graph node A -> B) along the walkway network. The short links

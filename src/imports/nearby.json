@@ -5,6 +5,7 @@
     "name": "7 Leaves Cafe",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.874791,
@@ -41,6 +42,7 @@
     "name": "7-Eleven",
     "kind": "poi",
     "poiType": "fuel",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.859531,
@@ -77,6 +79,7 @@
     "name": "76",
     "kind": "poi",
     "poiType": "fuel",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.899741,
@@ -365,6 +368,7 @@
     "name": "Baskin-Robbins",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "11:00-22:00",
     "position": {
       "geo": {
         "lat": 33.887299,
@@ -401,6 +405,7 @@
     "name": "Best 4 Less 76",
     "kind": "poi",
     "poiType": "fuel",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.865997,
@@ -455,6 +460,8 @@
     "name": "Bodhi Leaf Coffee Traders",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
+    "hours": "Mo-Fr 06:30-17:00; Sa-Su 07:00-19:00",
     "position": {
       "geo": {
         "lat": 33.888289,
@@ -482,6 +489,222 @@
     "provenance": {
       "source": "imported",
       "sourceRef": "https://www.openstreetmap.org/way/155676257",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569162",
+    "code": null,
+    "name": "Bradford-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.872527,
+        "lng": -117.870233
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569162",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569325",
+    "code": null,
+    "name": "Bradford-Madison",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.880552,
+        "lng": -117.867922
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569325",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569171",
+    "code": null,
+    "name": "Bradford-Primrose",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.875968,
+        "lng": -117.869435
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569171",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569225",
+    "code": null,
+    "name": "Bradford-Quartz",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.883895,
+        "lng": -117.866938
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569225",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569019",
+    "code": null,
+    "name": "Bradford-Rudy",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.878948,
+        "lng": -117.868608
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569019",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568874",
+    "code": null,
+    "name": "Bradford-Topaz",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.885227,
+        "lng": -117.866771
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568874",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314658",
+    "code": null,
+    "name": "Bradford-Yorba Linda",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.887708,
+        "lng": -117.865823
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314658",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672308291",
+    "code": null,
+    "name": "Brea-Ashburn",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.896507,
+        "lng": -117.911561
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672308291",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672308289",
+    "code": null,
+    "name": "Brea-Bastanchury",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.899009,
+        "lng": -117.909639
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672308289",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314543",
+    "code": null,
+    "name": "Brea-Bastanchury",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.899871,
+        "lng": -117.908942
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314543",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314657",
+    "code": null,
+    "name": "Brea-Panorama",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.8928,
+        "lng": -117.916303
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314657",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672308293",
+    "code": null,
+    "name": "Brea-Rolling Hills",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.90349,
+        "lng": -117.907218
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672308293",
       "verified": false
     }
   },
@@ -527,6 +750,7 @@
     "name": "Burger King",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Fr 06:30-22:00; Sa-Su 07:30-22:00",
     "position": {
       "geo": {
         "lat": 33.87462,
@@ -648,6 +872,546 @@
     }
   },
   {
+    "id": "near-n10684569038",
+    "code": null,
+    "name": "Chapman-Acacia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87409,
+        "lng": -117.897752
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569038",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569301",
+    "code": null,
+    "name": "Chapman-Acacia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874276,
+        "lng": -117.898999
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569301",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569260",
+    "code": null,
+    "name": "Chapman-All America",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871198,
+        "lng": -117.861216
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569260",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n8325636122",
+    "code": null,
+    "name": "Chapman-Angelina",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871559,
+        "lng": -117.866462
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/8325636122",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568996",
+    "code": null,
+    "name": "Chapman-Annin",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874071,
+        "lng": -117.90129
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568996",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569247",
+    "code": null,
+    "name": "Chapman-Berkeley",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873923,
+        "lng": -117.913694
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569247",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n1384064683",
+    "code": null,
+    "name": "Chapman-Berkeley",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874122,
+        "lng": -117.914542
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/1384064683",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569011",
+    "code": null,
+    "name": "Chapman-Bradford",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.872465,
+        "lng": -117.871199
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569011",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569099",
+    "code": null,
+    "name": "Chapman-Bradford",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87199,
+        "lng": -117.870176
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569099",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568903",
+    "code": null,
+    "name": "Chapman-Central",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871032,
+        "lng": -117.854755
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568903",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569048",
+    "code": null,
+    "name": "Chapman-Central",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871397,
+        "lng": -117.855361
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569048",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568944",
+    "code": null,
+    "name": "Chapman-Cornell",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873959,
+        "lng": -117.909407
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568944",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569238",
+    "code": null,
+    "name": "Chapman-Cornell",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874158,
+        "lng": -117.910439
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569238",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568939",
+    "code": null,
+    "name": "Chapman-Hart",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874232,
+        "lng": -117.902204
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568939",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568897",
+    "code": null,
+    "name": "Chapman-Kraemer",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871261,
+        "lng": -117.863502
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568897",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569132",
+    "code": null,
+    "name": "Chapman-Ladera Vista",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87411,
+        "lng": -117.893304
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569132",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n3197970082",
+    "code": null,
+    "name": "Chapman-Lemon",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873898,
+        "lng": -117.917395
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/3197970082",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569003",
+    "code": null,
+    "name": "Chapman-Melody",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873536,
+        "lng": -117.876787
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569003",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569063",
+    "code": null,
+    "name": "Chapman-Melrose",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.872638,
+        "lng": -117.872959
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569063",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569154",
+    "code": null,
+    "name": "Chapman-Mission",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871341,
+        "lng": -117.858139
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569154",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568835",
+    "code": null,
+    "name": "Chapman-Mountain View",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874315,
+        "lng": -117.896504
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568835",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568988",
+    "code": null,
+    "name": "Chapman-Mountain View",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874063,
+        "lng": -117.895793
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568988",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568966",
+    "code": null,
+    "name": "Chapman-Placentia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87369,
+        "lng": -117.878454
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568966",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569292",
+    "code": null,
+    "name": "Chapman-Raymond",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874217,
+        "lng": -117.907796
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569292",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2763581751",
+    "code": null,
+    "name": "Chapman-Raymond",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873957,
+        "lng": -117.90648
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2763581751",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569084",
+    "code": null,
+    "name": "Chapman-State College",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874347,
+        "lng": -117.890271
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569084",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568887",
+    "code": null,
+    "name": "Chapman-Victoria",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874199,
+        "lng": -117.904754
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568887",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569043",
+    "code": null,
+    "name": "Chapman-Victoria",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874067,
+        "lng": -117.903824
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569043",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568958",
+    "code": null,
+    "name": "Chapman-Walnut",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.872885,
+        "lng": -117.873272
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568958",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569197",
+    "code": null,
+    "name": "Chapman-Yale",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873935,
+        "lng": -117.911648
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569197",
+      "verified": false
+    }
+  },
+  {
     "id": "near-n5844983308",
     "code": null,
     "name": "ChargePoint",
@@ -689,6 +1453,7 @@
     "name": "Chick-fil-A",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Sa 06:00-23:00; Su off",
     "position": {
       "geo": {
         "lat": 33.911203,
@@ -725,6 +1490,7 @@
     "name": "Chipotle",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "11:00-22:00",
     "position": {
       "geo": {
         "lat": 33.874535,
@@ -761,6 +1527,7 @@
     "name": "Circle K",
     "kind": "poi",
     "poiType": "grocery",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.899897,
@@ -788,6 +1555,276 @@
     "provenance": {
       "source": "imported",
       "sourceRef": "https://www.openstreetmap.org/way/120582578",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569302",
+    "code": null,
+    "name": "Commonwealth-Acacia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87062,
+        "lng": -117.89869
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569302",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569051",
+    "code": null,
+    "name": "Commonwealth-Annin",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870455,
+        "lng": -117.901397
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569051",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569248",
+    "code": null,
+    "name": "Commonwealth-Annin",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870593,
+        "lng": -117.902105
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569248",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569090",
+    "code": null,
+    "name": "Commonwealth-Balcom",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870504,
+        "lng": -117.915233
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569090",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568892",
+    "code": null,
+    "name": "Commonwealth-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874602,
+        "lng": -117.884151
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568892",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568945",
+    "code": null,
+    "name": "Commonwealth-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873792,
+        "lng": -117.884363
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568945",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568953",
+    "code": null,
+    "name": "Commonwealth-Cornell",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870443,
+        "lng": -117.909513
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568953",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569254",
+    "code": null,
+    "name": "Commonwealth-Ladera Vista",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870653,
+        "lng": -117.893909
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569254",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569148",
+    "code": null,
+    "name": "Commonwealth-Mission",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870709,
+        "lng": -117.887679
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569148",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569262",
+    "code": null,
+    "name": "Commonwealth-Mountain View",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870473,
+        "lng": -117.895841
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569262",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568839",
+    "code": null,
+    "name": "Commonwealth-Nutwood",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.877768,
+        "lng": -117.884139
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568839",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568889",
+    "code": null,
+    "name": "Commonwealth-Raymond",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870612,
+        "lng": -117.906241
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568889",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568848",
+    "code": null,
+    "name": "Commonwealth-San Carlos",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871661,
+        "lng": -117.8854
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568848",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568899",
+    "code": null,
+    "name": "Commonwealth-State College",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870437,
+        "lng": -117.889861
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568899",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568836",
+    "code": null,
+    "name": "Commonwealth-Yale",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.87051,
+        "lng": -117.91154
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568836",
       "verified": false
     }
   },
@@ -869,6 +1906,7 @@
     "name": "Daiso Japan",
     "kind": "poi",
     "poiType": "shopping",
+    "hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
     "position": {
       "geo": {
         "lat": 33.887425,
@@ -941,6 +1979,7 @@
     "name": "Dollar Tree",
     "kind": "poi",
     "poiType": "shopping",
+    "hours": "Mo-Sa 08:00-22:00; Su 09:00-20:00",
     "position": {
       "geo": {
         "lat": 33.875276,
@@ -959,6 +1998,7 @@
     "name": "Domino's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
     "position": {
       "geo": {
         "lat": 33.896824,
@@ -977,6 +2017,7 @@
     "name": "Donut Star",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.874255,
@@ -1013,6 +2054,7 @@
     "name": "El Farolito",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Su-Th 07:00-20:00; Fr-Sa 07:00-21:00",
     "position": {
       "geo": {
         "lat": 33.870473,
@@ -1031,6 +2073,7 @@
     "name": "El Pollo Loco",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Su 10:00-22:00",
     "position": {
       "geo": {
         "lat": 33.875106,
@@ -1085,6 +2128,7 @@
     "name": "Farmer Boys",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Fr 06:00-22:00",
     "position": {
       "geo": {
         "lat": 33.865499,
@@ -1103,6 +2147,7 @@
     "name": "FedEx Distribution Center",
     "kind": "poi",
     "poiType": "post",
+    "hours": "Mo-Sa 08:00-17:00",
     "position": {
       "geo": {
         "lat": 33.862957,
@@ -1121,6 +2166,7 @@
     "name": "Five Guys",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "11:00-21:30",
     "position": {
       "geo": {
         "lat": 33.873643,
@@ -1139,6 +2185,7 @@
     "name": "Food Mart",
     "kind": "poi",
     "poiType": "grocery",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.874646,
@@ -1157,6 +2204,7 @@
     "name": "Fraise Café",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.873418,
@@ -1319,6 +2367,8 @@
     "name": "Habibi's",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
+    "hours": "Mo-We 08:00-16:00; Th 08:00-21:00; Fr 08:00-23:00; Sa 10:00-23:00; Su 10:00-21:00",
     "position": {
       "geo": {
         "lat": 33.877781,
@@ -1337,6 +2387,7 @@
     "name": "Habit Burger & Grill",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Su 11:00-21:00",
     "position": {
       "geo": {
         "lat": 33.87774,
@@ -1346,6 +2397,25 @@
     "provenance": {
       "source": "imported",
       "sourceRef": "https://www.openstreetmap.org/node/2668095952",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n2668083552",
+    "code": null,
+    "name": "Huntington Ramen & Sushi",
+    "kind": "poi",
+    "poiType": "dining",
+    "hours": "Mo-Su 12:00-22:00",
+    "position": {
+      "geo": {
+        "lat": 33.874473,
+        "lng": -117.903623
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/2668083552",
       "verified": false
     }
   },
@@ -1391,6 +2461,7 @@
     "name": "Jack in the Box",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Su 06:00-24:00",
     "position": {
       "geo": {
         "lat": 33.876622,
@@ -1409,6 +2480,7 @@
     "name": "Jay's Coffee Waffles & More",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.877734,
@@ -1445,6 +2517,7 @@
     "name": "KFC",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "10:00-21:30",
     "position": {
       "geo": {
         "lat": 33.886887,
@@ -1463,6 +2536,7 @@
     "name": "Kohl's",
     "kind": "poi",
     "poiType": "shopping",
+    "hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
     "position": {
       "geo": {
         "lat": 33.887525,
@@ -1494,11 +2568,480 @@
     }
   },
   {
+    "id": "near-n10684568832",
+    "code": null,
+    "name": "Kraemer-Alta Vista",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.876261,
+        "lng": -117.862182
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568832",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314513",
+    "code": null,
+    "name": "Kraemer-Bagnall",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.901122,
+        "lng": -117.863869
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314513",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314562",
+    "code": null,
+    "name": "Kraemer-Bastanchury",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.896052,
+        "lng": -117.863788
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314562",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314611",
+    "code": null,
+    "name": "Kraemer-Bastanchury",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.896932,
+        "lng": -117.863493
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314611",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314616",
+    "code": null,
+    "name": "Kraemer-Borromeo",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.898023,
+        "lng": -117.86383
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314616",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568936",
+    "code": null,
+    "name": "Kraemer-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870685,
+        "lng": -117.862979
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568936",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569145",
+    "code": null,
+    "name": "Kraemer-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871493,
+        "lng": -117.86249
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569145",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569299",
+    "code": null,
+    "name": "Kraemer-Connecticut",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873129,
+        "lng": -117.862475
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569299",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569138",
+    "code": null,
+    "name": "Kraemer-Fairway",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.882172,
+        "lng": -117.862831
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569138",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314567",
+    "code": null,
+    "name": "Kraemer-Golden",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.904113,
+        "lng": -117.863605
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314567",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314619",
+    "code": null,
+    "name": "Kraemer-Golden",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.903323,
+        "lng": -117.863907
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314619",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314672",
+    "code": null,
+    "name": "Kraemer-Hudson",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.893637,
+        "lng": -117.863468
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314672",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568876",
+    "code": null,
+    "name": "Kraemer-La Jolla",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.861859,
+        "lng": -117.861057
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568876",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569022",
+    "code": null,
+    "name": "Kraemer-La Jolla",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.861299,
+        "lng": -117.861132
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569022",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314727",
+    "code": null,
+    "name": "Kraemer-Livingston",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.89262,
+        "lng": -117.863745
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314727",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569081",
+    "code": null,
+    "name": "Kraemer-Madison",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.879865,
+        "lng": -117.863679
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569081",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569252",
+    "code": null,
+    "name": "Kraemer-Madison",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.880339,
+        "lng": -117.86336
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569252",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569089",
+    "code": null,
+    "name": "Kraemer-Morse",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.885015,
+        "lng": -117.862664
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569089",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569126",
+    "code": null,
+    "name": "Kraemer-Newcastle",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.882296,
+        "lng": -117.8631
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569126",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568863",
+    "code": null,
+    "name": "Kraemer-Orangethorpe",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.86464,
+        "lng": -117.862407
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568863",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568914",
+    "code": null,
+    "name": "Kraemer-Orangethorpe",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.865492,
+        "lng": -117.862465
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568914",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314622",
+    "code": null,
+    "name": "Kraemer-Patrician",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.90068,
+        "lng": -117.863527
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314622",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314729",
+    "code": null,
+    "name": "Kraemer-Santa Rosa",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.899899,
+        "lng": -117.863852
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314729",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568985",
+    "code": null,
+    "name": "Kraemer-Sheffield",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.884828,
+        "lng": -117.862908
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568985",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314510",
+    "code": null,
+    "name": "Kraemer-Yorba Linda",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.888875,
+        "lng": -117.863398
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314510",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314674",
+    "code": null,
+    "name": "Kraemer-Yorba Linda",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.886723,
+        "lng": -117.863369
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314674",
+      "verified": false
+    }
+  },
+  {
     "id": "near-n12827797062",
     "code": null,
     "name": "Krispy Krunchy Chicken",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "10:00-19:00",
     "position": {
       "geo": {
         "lat": 33.899842,
@@ -1553,6 +3096,7 @@
     "name": "Love's Alternative Energy - CNG",
     "kind": "poi",
     "poiType": "fuel",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.862806,
@@ -1607,6 +3151,7 @@
     "name": "McDonald's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "24/7",
     "position": {
       "geo": {
         "lat": 33.886596,
@@ -1625,6 +3170,7 @@
     "name": "McDonald's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "07:00-22:00",
     "position": {
       "geo": {
         "lat": 33.873595,
@@ -1769,6 +3315,7 @@
     "name": "Mr Katsu",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Su 11:30-21:00",
     "position": {
       "geo": {
         "lat": 33.88933,
@@ -1787,6 +3334,7 @@
     "name": "Mr. BBQ",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Th,Su 11:00-21:45; Fr,Sa 11:00-22:45",
     "position": {
       "geo": {
         "lat": 33.872664,
@@ -1854,11 +3402,66 @@
     }
   },
   {
+    "id": "near-n10684568858",
+    "code": null,
+    "name": "Nutwood-Commonwealth",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.878257,
+        "lng": -117.88472
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568858",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569339",
+    "code": null,
+    "name": "Nutwood-Placentia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.878031,
+        "lng": -117.878314
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569339",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568868",
+    "code": null,
+    "name": "Nutwood-State College",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.877613,
+        "lng": -117.889046
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568868",
+      "verified": false
+    }
+  },
+  {
     "id": "near-w186421978",
     "code": null,
     "name": "Office Depot",
     "kind": "poi",
-    "poiType": "shopping",
+    "poiType": "print",
+    "hours": "Mo-Fr 08:00-20:00; Sa 10:00-19:00; Su 10:00-18:00",
     "position": {
       "geo": {
         "lat": 33.875526,
@@ -1872,11 +3475,300 @@
     }
   },
   {
+    "id": "near-n10684569206",
+    "code": null,
+    "name": "Orangethorpe-Acacia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859757,
+        "lng": -117.898556
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569206",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569149",
+    "code": null,
+    "name": "Orangethorpe-Community",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.864035,
+        "lng": -117.866969
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569149",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569183",
+    "code": null,
+    "name": "Orangethorpe-Community",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.863918,
+        "lng": -117.866213
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569183",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569053",
+    "code": null,
+    "name": "Orangethorpe-Ent 2100 Colt",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859904,
+        "lng": -117.894464
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569053",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568895",
+    "code": null,
+    "name": "Orangethorpe-Ent 2150 Vista Paint",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859555,
+        "lng": -117.893901
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568895",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569326",
+    "code": null,
+    "name": "Orangethorpe-Iowa",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.861029,
+        "lng": -117.879042
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569326",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569203",
+    "code": null,
+    "name": "Orangethorpe-Kraemer",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.864885,
+        "lng": -117.863506
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569203",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569321",
+    "code": null,
+    "name": "Orangethorpe-Kraemer",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.865036,
+        "lng": -117.861868
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569321",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569152",
+    "code": null,
+    "name": "Orangethorpe-Manhattan",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859722,
+        "lng": -117.902422
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569152",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568855",
+    "code": null,
+    "name": "Orangethorpe-Melrose",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.862199,
+        "lng": -117.874442
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568855",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568975",
+    "code": null,
+    "name": "Orangethorpe-Ohio",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.860426,
+        "lng": -117.880203
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568975",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568842",
+    "code": null,
+    "name": "Orangethorpe-Placentia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859875,
+        "lng": -117.883497
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568842",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569286",
+    "code": null,
+    "name": "Orangethorpe-Placentia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.85974,
+        "lng": -117.882833
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569286",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568851",
+    "code": null,
+    "name": "Orangethorpe-State College",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859592,
+        "lng": -117.888941
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568851",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569098",
+    "code": null,
+    "name": "Orangethorpe-State College",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.85982,
+        "lng": -117.890053
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569098",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568946",
+    "code": null,
+    "name": "Orangethorpe-Thames",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.866725,
+        "lng": -117.856015
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568946",
+      "verified": false
+    }
+  },
+  {
     "id": "near-w369181536",
     "code": null,
     "name": "Orvac Electronics",
     "kind": "poi",
     "poiType": "shopping",
+    "hours": "Mo-Fr 08:30-18:00; Sa 09:00-17:30; Su off",
     "position": {
       "geo": {
         "lat": 33.860138,
@@ -1913,6 +3805,7 @@
     "name": "Panda Express",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Fr 10:00-21:00; Sa-Su 10:30-21:00",
     "position": {
       "geo": {
         "lat": 33.874601,
@@ -1931,6 +3824,7 @@
     "name": "Papa John's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
     "position": {
       "geo": {
         "lat": 33.874636,
@@ -1949,6 +3843,7 @@
     "name": "Pepe's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
     "position": {
       "geo": {
         "lat": 33.877058,
@@ -1985,6 +3880,7 @@
     "name": "Philz Coffee",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.875081,
@@ -2021,6 +3917,7 @@
     "name": "Pita Hot Mediterranean Grill",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "11:00-22:00",
     "position": {
       "geo": {
         "lat": 33.874343,
@@ -2075,6 +3972,7 @@
     "name": "Placentia Post Office",
     "kind": "poi",
     "poiType": "post",
+    "hours": "Mo-Fr 08:30-17:00; Sa 09:00-13:00",
     "position": {
       "geo": {
         "lat": 33.886437,
@@ -2088,11 +3986,66 @@
     }
   },
   {
+    "id": "near-n10684568905",
+    "code": null,
+    "name": "Placentia-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874315,
+        "lng": -117.878771
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568905",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569033",
+    "code": null,
+    "name": "Placentia-Nutwood",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.877306,
+        "lng": -117.878199
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569033",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568864",
+    "code": null,
+    "name": "Placentia-Orangethorpe",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.858381,
+        "lng": -117.883456
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568864",
+      "verified": false
+    }
+  },
+  {
     "id": "near-n2639398605",
     "code": null,
     "name": "Polly's Pies",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "07:00-22:00",
     "position": {
       "geo": {
         "lat": 33.871797,
@@ -2111,6 +4064,7 @@
     "name": "Popeyes",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Su 10:00-22:30",
     "position": {
       "geo": {
         "lat": 33.887849,
@@ -2129,6 +4083,7 @@
     "name": "Ralphs",
     "kind": "poi",
     "poiType": "grocery",
+    "hours": "Mo-Su 06:00-01:00",
     "position": {
       "geo": {
         "lat": 33.8872,
@@ -2273,6 +4228,7 @@
     "name": "Sharetea",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.875528,
@@ -2309,6 +4265,7 @@
     "name": "Sonic",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "10:00-02:00",
     "position": {
       "geo": {
         "lat": 33.874714,
@@ -2345,6 +4302,7 @@
     "name": "Starbucks",
     "kind": "poi",
     "poiType": "dining",
+    "cafe": true,
     "position": {
       "geo": {
         "lat": 33.874849,
@@ -2358,11 +4316,516 @@
     }
   },
   {
+    "id": "near-n10672314533",
+    "code": null,
+    "name": "State College-Bastanchury",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.897603,
+        "lng": -117.891587
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314533",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568817",
+    "code": null,
+    "name": "State College-Campus",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.881854,
+        "lng": -117.889576
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568817",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568869",
+    "code": null,
+    "name": "State College-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.873668,
+        "lng": -117.889809
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568869",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n836910738",
+    "code": null,
+    "name": "State College-Chapman",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.874872,
+        "lng": -117.889503
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/836910738",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568830",
+    "code": null,
+    "name": "State College-Commonwealth",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.871105,
+        "lng": -117.889517
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568830",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569025",
+    "code": null,
+    "name": "State College-Commonwealth",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.870177,
+        "lng": -117.889691
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569025",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569284",
+    "code": null,
+    "name": "State College-Corporation",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.884904,
+        "lng": -117.889633
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569284",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569298",
+    "code": null,
+    "name": "State College-Cypress",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.861548,
+        "lng": -117.889292
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569298",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569169",
+    "code": null,
+    "name": "State College-Dorothy",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.880998,
+        "lng": -117.889856
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569169",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314695",
+    "code": null,
+    "name": "State College-Elm",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.908151,
+        "lng": -117.889874
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314695",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568882",
+    "code": null,
+    "name": "State College-Fender",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.867809,
+        "lng": -117.889386
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568882",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314584",
+    "code": null,
+    "name": "State College-Imperial",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.910893,
+        "lng": -117.888212
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314584",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569017",
+    "code": null,
+    "name": "State College-Kimberly",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.863385,
+        "lng": -117.88959
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569017",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314642",
+    "code": null,
+    "name": "State College-Lark Ellen",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.907028,
+        "lng": -117.889589
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314642",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314570",
+    "code": null,
+    "name": "State College-Mendocino",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.891032,
+        "lng": -117.891726
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314570",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568919",
+    "code": null,
+    "name": "State College-Nutwood",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.877451,
+        "lng": -117.889806
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568919",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569178",
+    "code": null,
+    "name": "State College-Nutwood",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.878067,
+        "lng": -117.889546
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569178",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568824",
+    "code": null,
+    "name": "State College-Orangethorpe",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.85688,
+        "lng": -117.889126
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568824",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568963",
+    "code": null,
+    "name": "State College-Orangethorpe",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.859428,
+        "lng": -117.889549
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568963",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314628",
+    "code": null,
+    "name": "State College-Palmetto Terrace",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.894768,
+        "lng": -117.891863
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314628",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569224",
+    "code": null,
+    "name": "State College-Ranch",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.884131,
+        "lng": -117.889915
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569224",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672308282",
+    "code": null,
+    "name": "State College-Rolling Hills",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.903866,
+        "lng": -117.889662
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672308282",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568973",
+    "code": null,
+    "name": "State College-Valencia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.866484,
+        "lng": -117.889714
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568973",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569243",
+    "code": null,
+    "name": "State College-Valencia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.86523,
+        "lng": -117.889328
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569243",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684568880",
+    "code": null,
+    "name": "State College-Via Burton",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.856904,
+        "lng": -117.889237
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684568880",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314523",
+    "code": null,
+    "name": "State College-Vista Del Sol",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.892823,
+        "lng": -117.891431
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314523",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314632",
+    "code": null,
+    "name": "State College-Yorba Linda",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.889101,
+        "lng": -117.89024
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314632",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314735",
+    "code": null,
+    "name": "State College-Yorba Linda",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.887289,
+        "lng": -117.890107
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314735",
+      "verified": false
+    }
+  },
+  {
     "id": "near-n1399431829",
     "code": null,
     "name": "Stater Bros.",
     "kind": "poi",
     "poiType": "grocery",
+    "hours": "Mo-Su 06:00-23:00",
     "position": {
       "geo": {
         "lat": 33.898332,
@@ -2381,6 +4844,7 @@
     "name": "Subway",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Fr 08:30-20:00; Sa 09:30-18:30",
     "position": {
       "geo": {
         "lat": 33.873811,
@@ -2399,6 +4863,7 @@
     "name": "Subway",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "Mo-Fr 07:30-21:00; Sa 08:00-20:30; Su 09:00-20:00",
     "position": {
       "geo": {
         "lat": 33.898852,
@@ -2453,6 +4918,7 @@
     "name": "Taco Bell",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "06:30-04:00",
     "position": {
       "geo": {
         "lat": 33.888776,
@@ -2471,6 +4937,7 @@
     "name": "Target",
     "kind": "poi",
     "poiType": "shopping",
+    "hours": "08:00-23:00",
     "position": {
       "geo": {
         "lat": 33.887915,
@@ -2574,24 +5041,6 @@
     }
   },
   {
-    "id": "near-n2668083552",
-    "code": null,
-    "name": "Tokyo Kitchen",
-    "kind": "poi",
-    "poiType": "dining",
-    "position": {
-      "geo": {
-        "lat": 33.874473,
-        "lng": -117.903623
-      }
-    },
-    "provenance": {
-      "source": "imported",
-      "sourceRef": "https://www.openstreetmap.org/node/2668083552",
-      "verified": false
-    }
-  },
-  {
     "id": "near-w118292070",
     "code": null,
     "name": "Tri City Park",
@@ -2651,6 +5100,7 @@
     "name": "Urgent Care Pros- Fullerton",
     "kind": "poi",
     "poiType": "health",
+    "hours": "Mo-Fr 08:00-17:00; Sa-Su 08:00-19:00",
     "position": {
       "geo": {
         "lat": 33.887335,
@@ -2678,6 +5128,24 @@
     "provenance": {
       "source": "imported",
       "sourceRef": "https://www.openstreetmap.org/node/2679799903",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10684569186",
+    "code": null,
+    "name": "Via Burton-Daly",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.856074,
+        "lng": -117.887554
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10684569186",
       "verified": false
     }
   },
@@ -2723,6 +5191,7 @@
     "name": "Walgreens",
     "kind": "poi",
     "poiType": "pharmacy",
+    "hours": "Mo-Su 08:00-00:00",
     "position": {
       "geo": {
         "lat": 33.873555,
@@ -2777,6 +5246,7 @@
     "name": "Wendy's",
     "kind": "poi",
     "poiType": "dining",
+    "hours": "07:00-22:00",
     "position": {
       "geo": {
         "lat": 33.910088,
@@ -2858,6 +5328,114 @@
     "provenance": {
       "source": "imported",
       "sourceRef": "https://www.openstreetmap.org/node/2639921788",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314599",
+    "code": null,
+    "name": "Yorba Linda-Brookhaven",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.889234,
+        "lng": -117.859557
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314599",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314506",
+    "code": null,
+    "name": "Yorba Linda-Carthage",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.889242,
+        "lng": -117.851248
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314506",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314558",
+    "code": null,
+    "name": "Yorba Linda-Kraemer",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.887778,
+        "lng": -117.862811
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314558",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314547",
+    "code": null,
+    "name": "Yorba Linda-Palm",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.888479,
+        "lng": -117.86161
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314547",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314668",
+    "code": null,
+    "name": "Yorba Linda-Valencia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.889198,
+        "lng": -117.854345
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314668",
+      "verified": false
+    }
+  },
+  {
+    "id": "near-n10672314712",
+    "code": null,
+    "name": "Yorba Linda-Valencia",
+    "kind": "poi",
+    "poiType": "transit",
+    "position": {
+      "geo": {
+        "lat": 33.889431,
+        "lng": -117.855223
+      }
+    },
+    "provenance": {
+      "source": "imported",
+      "sourceRef": "https://www.openstreetmap.org/node/10672314712",
       "verified": false
     }
   }
