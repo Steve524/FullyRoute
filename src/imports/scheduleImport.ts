@@ -351,11 +351,50 @@ function titanRoom(text: string) {
   return (m ? m[0] : t).trim().slice(0, 80)
 }
 
+// Newer Titan Online layout: "CPSC 362 Software Engineering" headers, and each meeting
+// printed as "Days: Tuesday Thursday", "Times: 5:30PM to 6:45PM" and a "Room" column.
+// The cells of one row can land on different text lines, so each kind is collected in order.
+const TITAN_NEW_HEADER_RE = /^([A-Z]{2,5})\s+(\d{3}[A-Z]{0,2})\s+([A-Z](?:(?!\s-\s).)*)$/
+const TITAN_NEW_DAYS_RE = /Days:\s*((?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s*)+)/g
+const TITAN_NEW_TIMES_RE = new RegExp(String.raw`Times:\s*(${TITAN_TIME})\s*(?:to|-)\s*(${TITAN_TIME})`, 'g')
+const TITAN_NEW_SECTION_RE = new RegExp(String.raw`Section\s+([0-9A-Z]{1,4})\s+-\s+Class Nbr\s+(\d{4,5})\s+-\s+(${COMPONENT_WORDS})`, 'g')
+const TITAN_NEW_DATES_RE = /(\d{2}\/\d{2}\/\d{4})\s*-\s*(\d{2}\/\d{2}\/\d{4})/g
+const TITAN_NEW_ROOM_RE = /\b[A-Z]{1,5}\s\d{1,4}[A-Z]{0,2}(?:\s+-\s+[A-Z][a-z]+(?:\s[A-Z][a-z]+)*)?|\b(?:Online|Web|TBA)\b/g
+
+function titanNewDrafts(label: string, title: string, text: string): Draft[] {
+  const days = [...text.matchAll(TITAN_NEW_DAYS_RE)]
+  const times = [...text.matchAll(TITAN_NEW_TIMES_RE)]
+  const sections = [...text.matchAll(TITAN_NEW_SECTION_RE)]
+  const dates = [...text.matchAll(TITAN_NEW_DATES_RE)]
+  const rest = text.replace(TITAN_NEW_DAYS_RE, ' ').replace(TITAN_NEW_TIMES_RE, ' ').replace(TITAN_NEW_SECTION_RE, ' ').replace(TITAN_NEW_DATES_RE, ' ')
+  const rooms = [...rest.matchAll(TITAN_NEW_ROOM_RE)].map((m) => m[0].trim())
+  const at = <T,>(list: T[], k: number) => list[Math.min(k, list.length - 1)]
+
+  return days.map((d, k) => {
+    const t = times[k]
+    const s = sections.length ? at(sections, k) : null
+    const dt = dates.length ? at(dates, k) : null
+    return {
+      courseLabel: label,
+      courseTitle: title,
+      classNbr: s?.[2] ?? '',
+      section: s?.[1] ?? '',
+      component: s ? (componentOf(s[3]) ?? s[3]) : 'Class',
+      startDate: dt ? (parseDate(dt[1]) ?? '') : '',
+      endDate: dt ? (parseDate(dt[2]) ?? '') : '',
+      days: parseDays(d[1]) ?? [],
+      startTime: t ? parseTime(t[1]) : null,
+      endTime: t ? parseTime(t[2]) : null,
+      locationRaw: rooms.length ? at(rooms, k).slice(0, 80) : '',
+    }
+  })
+}
+
 export function parseTitanText(lines: string[], places: Building[]): ImportedSchedule {
   const blocks: { label: string; title: string; text: string }[] = []
   for (const raw of lines) {
     const line = raw.replace(/\s+/g, ' ').trim()
-    const header = TITAN_HEADER_RE.exec(line)
+    const header = TITAN_HEADER_RE.exec(line) ?? TITAN_NEW_HEADER_RE.exec(line)
     if (header) blocks.push({ label: `${header[1]} ${header[2]}`, title: header[3].trim(), text: '' })
     else if (blocks.length) blocks[blocks.length - 1].text += ` ${line}`
   }
@@ -365,6 +404,10 @@ export function parseTitanText(lines: string[], places: Building[]): ImportedSch
   for (const block of blocks) {
     if (/\b(Dropped|Withdrawn)\b/.test(block.text)) {
       warnings.push(`Skipped ${block.label} because it's marked dropped.`)
+      continue
+    }
+    if (/\bDays:/.test(block.text)) {
+      drafts.push(...titanNewDrafts(block.label, block.title, block.text))
       continue
     }
     const anchors = [...block.text.matchAll(TITAN_MEETING_RE)]
@@ -414,6 +457,11 @@ export async function importScheduleFile(file: File, places: Building[]): Promis
       lines = await pdfLines(await file.arrayBuffer())
     } catch {
       throw new ScheduleImportError("We couldn't open that PDF. If it's password-protected, save an unprotected copy.")
+    }
+    if (!lines.length) {
+      throw new ScheduleImportError(
+        "That PDF has no selectable text (it's a picture of the page). Re-save it from Titan Online with “Save as PDF” instead of a screenshot or “Microsoft Print to PDF”, or upload a .csv or .ics file.",
+      )
     }
     return { source: 'pdf', ...parseTitanText(lines, places) }
   }

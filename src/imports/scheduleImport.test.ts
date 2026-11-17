@@ -129,6 +129,31 @@ describe('Titan Online PDF text', () => {
     expect(warnings).toEqual(['Skipped HIST 110 because it\'s marked dropped.'])
   })
 
+  it('reads the Days:/Times: layout with cells on separate lines', () => {
+    const out = parseTitanText(
+      [
+        'Shane Smeaton', 'Fall 2026',
+        'CPSC 362 Software Engineering',
+        'Status Units Grading Basis Grade Academic Program Requirement Designation',
+        'Enrolled 3.00 Graded Graduate Program',
+        'Class Meeting Dates Days and Times Room',
+        '08/22/2026 - 12/11/2026 Days: Tuesday Thursday EC 063 - Lecture Room',
+        'Section 06 - Class Nbr 18393 - Lecture',
+        'Times: 5:30PM to 6:45PM',
+        'CPSC 583 Knowledge Represent Reasoning',
+        'Enrolled 3.00 Graded Graduate Program',
+        '08/22/2026 - 12/11/2026 Days: Tuesday EC 109 - Lecture Room',
+        'Section 02 - Class Nbr 21769 - Lecture',
+        'Times: 7:00PM to 9:45PM',
+      ],
+      places,
+    )
+    expect(out.term).toBe('Fall 2026')
+    expect(out.items).toHaveLength(2)
+    expect(out.items[0]).toMatchObject({ courseLabel: 'CPSC 362', days: ['Tue', 'Thu'], startTime: '17:30', endTime: '18:45', classNbr: '18393', buildingId: 'bldg-ec', roomNumber: '063' })
+    expect(out.items[1]).toMatchObject({ courseLabel: 'CPSC 583', days: ['Tue'], startTime: '19:00', roomNumber: '109' })
+  })
+
   it('explains when nothing looks like a schedule', () => {
     expect(() => parseTitanText(['Just some text'], places)).toThrow(ScheduleImportError)
   })
